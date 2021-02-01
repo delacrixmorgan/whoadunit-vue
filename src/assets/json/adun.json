@@ -1,0 +1,282 @@
+[
+    {
+        "code": "N1",
+        "level": "State",
+        "name": "Sungai Air Tawar"
+    },
+    {
+        "code": "N2",
+        "level": "State",
+        "name": "Sabak"
+    },
+    {
+        "code": "N3",
+        "level": "State",
+        "name": "Sungai Panjang"
+    },
+    {
+        "code": "N4",
+        "level": "State",
+        "name": "Sekinchan"
+    },
+    {
+        "code": "N5",
+        "level": "State",
+        "name": "Hulu Bernam"
+    },
+    {
+        "code": "N6",
+        "level": "State",
+        "name": "Kuala Kubu Baharu"
+    },
+    {
+        "code": "N7",
+        "level": "State",
+        "name": "Batang Kali"
+    },
+    {
+        "code": "N8",
+        "level": "State",
+        "name": "Sungai Burong"
+    },
+    {
+        "code": "N9",
+        "level": "State",
+        "name": "Permatang"
+    },
+    {
+        "code": "N10",
+        "level": "State",
+        "name": "Bukit Melawati"
+    },
+    {
+        "code": "N11",
+        "level": "State",
+        "name": "Ijok"
+    },
+    {
+        "code": "N12",
+        "level": "State",
+        "name": "Jeram"
+    },
+    {
+        "code": "N13",
+        "level": "State",
+        "name": "Kuang"
+    },
+    {
+        "code": "N14",
+        "level": "State",
+        "name": "Rawang"
+    },
+    {
+        "code": "N15",
+        "level": "State",
+        "name": "Taman Templer"
+    },
+    {
+        "code": "N16",
+        "level": "State",
+        "name": "Sungai Tua"
+    },
+    {
+        "code": "N17",
+        "level": "State",
+        "name": "Gombak Setia"
+    },
+    {
+        "code": "N18",
+        "level": "State",
+        "name": "Hulu Kelang"
+    },
+    {
+        "code": "N19",
+        "level": "State",
+        "name": "Bukit Antarabangsa"
+    },
+    {
+        "code": "N20",
+        "level": "State",
+        "name": "Lembah Jaya"
+    },
+    {
+        "code": "N21",
+        "level": "State",
+        "name": "Pandan Indah"
+    },
+    {
+        "code": "N22",
+        "level": "State",
+        "name": "Teratai"
+    },
+    {
+        "code": "N23",
+        "level": "State",
+        "name": "Dusun Tua"
+    },
+    {
+        "code": "N24",
+        "level": "State",
+        "name": "Semenyih"
+    },
+    {
+        "code": "N25",
+        "level": "State",
+        "name": "Kajang"
+    },
+    {
+        "code": "N26",
+        "level": "State",
+        "name": "Sungai Ramal"
+    },
+    {
+        "code": "N27",
+        "level": "State",
+        "name": "Balakong"
+    },
+    {
+        "code": "N28",
+        "level": "State",
+        "name": "Seri Kembangan"
+    },
+    {
+        "code": "N29",
+        "level": "State",
+        "name": "Seri Serdang"
+    },
+    {
+        "code": "N30",
+        "level": "State",
+        "name": "Kinrara"
+    },
+    {
+        "code": "N31",
+        "level": "State",
+        "name": "Subang Jaya"
+    },
+    {
+        "code": "N32",
+        "level": "State",
+        "name": "Seri Setia"
+    },
+    {
+        "code": "N33",
+        "level": "State",
+        "name": "Taman Medan"
+    },
+    {
+        "code": "N34",
+        "level": "State",
+        "name": "Bukit Gasing"
+    },
+    {
+        "code": "N35",
+        "level": "State",
+        "name": "Kampung Tunku"
+    },
+    {
+        "code": "N36",
+        "level": "State",
+        "name": "Bandar Utama"
+    },
+    {
+        "code": "N37",
+        "level": "State",
+        "name": "Bukit Lanjan"
+    },
+    {
+        "code": "N38",
+        "level": "State",
+        "name": "Paya Jaras"
+    },
+    {
+        "code": "N39",
+        "level": "State",
+        "name": "Kota Damansara"
+    },
+    {
+        "code": "N40",
+        "level": "State",
+        "name": "Kota Anggerik"
+    },
+    {
+        "code": "N41",
+        "level": "State",
+        "name": "Batu Tiga"
+    },
+    {
+        "code": "N42",
+        "level": "State",
+        "name": "Meru"
+    },
+    {
+        "code": "N43",
+        "level": "State",
+        "name": "Sementa"
+    },
+    {
+        "code": "N44",
+        "level": "State",
+        "name": "Selat Klang"
+    },
+    {
+        "code": "N45",
+        "level": "State",
+        "name": "Bandar Baru Klang"
+    },
+    {
+        "code": "N46",
+        "level": "State",
+        "name": "Pelabuhan Klang"
+    },
+    {
+        "code": "N47",
+        "level": "State",
+        "name": "Pandamaran"
+    },
+    {
+        "code": "N48",
+        "level": "State",
+        "name": "Sentosa"
+    },
+    {
+        "code": "N49",
+        "level": "State",
+        "name": "Sungai Kandis"
+    },
+    {
+        "code": "N50",
+        "level": "State",
+        "name": "Kota Kemuning"
+    },
+    {
+        "code": "N51",
+        "level": "State",
+        "name": "Sijangkang"
+    },
+    {
+        "code": "N52",
+        "level": "State",
+        "name": "Banting"
+    },
+    {
+        "code": "N53",
+        "level": "State",
+        "name": "Morib"
+    },
+    {
+        "code": "N54",
+        "level": "State",
+        "name": "Tanjong Sepat"
+    },
+    {
+        "code": "N55",
+        "level": "State",
+        "name": "Dengkil"
+    },
+    {
+        "code": "N56",
+        "level": "State",
+        "name": "Sungai Pelek"
+    }
+]
