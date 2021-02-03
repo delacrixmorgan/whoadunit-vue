@@ -1,6 +1,6 @@
 // import axios from "axios"
-import ADUNJson from "@/assets/json/adun.json"
-import MPJson from "@/assets/json/mp.json"
+import ADUNJson from "@/assets/json/adun_seats.json"
+import MPJson from "@/assets/json/mp_seats.json"
 
 export default {
     namespace: true,

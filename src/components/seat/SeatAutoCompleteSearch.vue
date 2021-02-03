@@ -5,7 +5,9 @@
       type="text"
       :placeholder="placeholder"
       v-model.trim="searchQuery"
+      @click="onChange"
       @input="onChange"
+      @keydown.esc="onEsc"
       @keydown.down="onArrowDown"
       @keydown.up="onArrowUp"
       @keydown.enter="onEnter"
@@ -31,6 +33,7 @@ export default {
       placeholder: "",
       getterEndpoint: "",
       searchQuery: "",
+      selectedSeat: null,
       isOpen: false,
       results: [],
       arrowCounter: -1,
@@ -73,10 +76,14 @@ export default {
         this.arrowCounter = this.results.length - 1;
       }
     },
+    onEsc() {
+      this.isOpen = false;
+      this.arrowCounter = -1;
+    },
     onEnter() {
       const seat = this.results[this.arrowCounter];
-      this.search = seat;
       if (this.arrowCounter >= 0) {
+        this.selectedSeat = seat;
         this.searchQuery = seat.code + " " + seat.name;
       }
 
@@ -84,15 +91,12 @@ export default {
       this.arrowCounter = -1;
     },
     setResult(seat) {
-      this.search = seat;
+      this.selectedSeat = seat;
       this.searchQuery = seat.code + " " + seat.name;
       this.isOpen = false;
     },
     handleClickOutside(event) {
-      const path =
-        event.path || (event.composedPath ? event.composedPath() : undefined);
-
-      if (path && !path.includes(this.em)) {
+      if (!this.$el.contains(event.target)) {
         this.isOpen = false;
         this.arrowCounter = -1;
       }
@@ -122,7 +126,7 @@ export default {
   padding: 0;
   margin: 0;
   border: 1px solid #eeeeee;
-  height: 270px;
+  max-height: 170px;
   overflow: auto;
 }
 
