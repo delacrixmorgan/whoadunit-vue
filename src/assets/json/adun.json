@@ -1,282 +1,394 @@
 [
     {
         "code": "N1",
+        "federalseatcode": "P92",
         "level": "State",
+        "state": "Selangor",
         "name": "Sungai Air Tawar"
     },
     {
         "code": "N2",
+        "federalseatcode": "P92",
         "level": "State",
+        "state": "Selangor",
         "name": "Sabak"
     },
     {
         "code": "N3",
+        "federalseatcode": "P93",
         "level": "State",
+        "state": "Selangor",
         "name": "Sungai Panjang"
     },
     {
         "code": "N4",
+        "federalseatcode": "P93",
         "level": "State",
+        "state": "Selangor",
         "name": "Sekinchan"
     },
     {
         "code": "N5",
+        "federalseatcode": "P94",
         "level": "State",
+        "state": "Selangor",
         "name": "Hulu Bernam"
     },
     {
         "code": "N6",
+        "federalseatcode": "P94",
         "level": "State",
+        "state": "Selangor",
         "name": "Kuala Kubu Baharu"
     },
     {
         "code": "N7",
+        "federalseatcode": "P94",
         "level": "State",
+        "state": "Selangor",
         "name": "Batang Kali"
     },
     {
         "code": "N8",
+        "federalseatcode": "P95",
         "level": "State",
+        "state": "Selangor",
         "name": "Sungai Burong"
     },
     {
         "code": "N9",
+        "federalseatcode": "P95",
         "level": "State",
+        "state": "Selangor",
         "name": "Permatang"
     },
     {
         "code": "N10",
+        "federalseatcode": "P96",
         "level": "State",
+        "state": "Selangor",
         "name": "Bukit Melawati"
     },
     {
         "code": "N11",
+        "federalseatcode": "P96",
         "level": "State",
+        "state": "Selangor",
         "name": "Ijok"
     },
     {
         "code": "N12",
+        "federalseatcode": "P96",
         "level": "State",
+        "state": "Selangor",
         "name": "Jeram"
     },
     {
         "code": "N13",
+        "federalseatcode": "P97",
         "level": "State",
+        "state": "Selangor",
         "name": "Kuang"
     },
     {
         "code": "N14",
+        "federalseatcode": "P97",
         "level": "State",
+        "state": "Selangor",
         "name": "Rawang"
     },
     {
         "code": "N15",
+        "federalseatcode": "P97",
         "level": "State",
+        "state": "Selangor",
         "name": "Taman Templer"
     },
     {
         "code": "N16",
+        "federalseatcode": "P98",
         "level": "State",
+        "state": "Selangor",
         "name": "Sungai Tua"
     },
     {
         "code": "N17",
+        "federalseatcode": "P98",
         "level": "State",
+        "state": "Selangor",
         "name": "Gombak Setia"
     },
     {
         "code": "N18",
+        "federalseatcode": "P98",
         "level": "State",
+        "state": "Selangor",
         "name": "Hulu Kelang"
     },
     {
         "code": "N19",
+        "federalseatcode": "P99",
         "level": "State",
+        "state": "Selangor",
         "name": "Bukit Antarabangsa"
     },
     {
         "code": "N20",
+        "federalseatcode": "P99",
         "level": "State",
+        "state": "Selangor",
         "name": "Lembah Jaya"
     },
     {
         "code": "N21",
+        "federalseatcode": "P100",
         "level": "State",
+        "state": "Selangor",
         "name": "Pandan Indah"
     },
     {
         "code": "N22",
+        "federalseatcode": "P100",
         "level": "State",
+        "state": "Selangor",
         "name": "Teratai"
     },
     {
         "code": "N23",
+        "federalseatcode": "P101",
         "level": "State",
+        "state": "Selangor",
         "name": "Dusun Tua"
     },
     {
         "code": "N24",
+        "federalseatcode": "P101",
         "level": "State",
+        "state": "Selangor",
         "name": "Semenyih"
     },
     {
         "code": "N25",
+        "federalseatcode": "P102",
         "level": "State",
+        "state": "Selangor",
         "name": "Kajang"
     },
     {
         "code": "N26",
+        "federalseatcode": "P102",
         "level": "State",
+        "state": "Selangor",
         "name": "Sungai Ramal"
     },
     {
         "code": "N27",
+        "federalseatcode": "P102",
         "level": "State",
+        "state": "Selangor",
         "name": "Balakong"
     },
     {
         "code": "N28",
+        "federalseatcode": "P103",
         "level": "State",
+        "state": "Selangor",
         "name": "Seri Kembangan"
     },
     {
         "code": "N29",
+        "federalseatcode": "P103",
         "level": "State",
+        "state": "Selangor",
         "name": "Seri Serdang"
     },
     {
         "code": "N30",
+        "federalseatcode": "P104",
         "level": "State",
+        "state": "Selangor",
         "name": "Kinrara"
     },
     {
         "code": "N31",
+        "federalseatcode": "P104",
         "level": "State",
+        "state": "Selangor",
         "name": "Subang Jaya"
     },
     {
         "code": "N32",
+        "federalseatcode": "P105",
         "level": "State",
+        "state": "Selangor",
         "name": "Seri Setia"
     },
     {
         "code": "N33",
+        "federalseatcode": "P105",
         "level": "State",
+        "state": "Selangor",
         "name": "Taman Medan"
     },
     {
         "code": "N34",
+        "federalseatcode": "P105",
         "level": "State",
+        "state": "Selangor",
         "name": "Bukit Gasing"
     },
     {
         "code": "N35",
+        "federalseatcode": "P106",
         "level": "State",
+        "state": "Selangor",
         "name": "Kampung Tunku"
     },
     {
         "code": "N36",
+        "federalseatcode": "P106",
         "level": "State",
+        "state": "Selangor",
         "name": "Bandar Utama"
     },
     {
         "code": "N37",
+        "federalseatcode": "P106",
         "level": "State",
+        "state": "Selangor",
         "name": "Bukit Lanjan"
     },
     {
         "code": "N38",
+        "federalseatcode": "P107",
         "level": "State",
+        "state": "Selangor",
         "name": "Paya Jaras"
     },
     {
         "code": "N39",
+        "federalseatcode": "P107",
         "level": "State",
+        "state": "Selangor",
         "name": "Kota Damansara"
     },
     {
         "code": "N40",
+        "federalseatcode": "P108",
         "level": "State",
+        "state": "Selangor",
         "name": "Kota Anggerik"
     },
     {
         "code": "N41",
+        "federalseatcode": "P108",
         "level": "State",
+        "state": "Selangor",
         "name": "Batu Tiga"
     },
     {
         "code": "N42",
+        "federalseatcode": "P109",
         "level": "State",
+        "state": "Selangor",
         "name": "Meru"
     },
     {
         "code": "N43",
+        "federalseatcode": "P109",
         "level": "State",
+        "state": "Selangor",
         "name": "Sementa"
     },
     {
         "code": "N44",
+        "federalseatcode": "P109",
         "level": "State",
+        "state": "Selangor",
         "name": "Selat Klang"
     },
     {
         "code": "N45",
+        "federalseatcode": "P110",
         "level": "State",
+        "state": "Selangor",
         "name": "Bandar Baru Klang"
     },
     {
         "code": "N46",
+        "federalseatcode": "P110",
         "level": "State",
+        "state": "Selangor",
         "name": "Pelabuhan Klang"
     },
     {
         "code": "N47",
+        "federalseatcode": "P110",
         "level": "State",
+        "state": "Selangor",
         "name": "Pandamaran"
     },
     {
         "code": "N48",
+        "federalseatcode": "P111",
         "level": "State",
+        "state": "Selangor",
         "name": "Sentosa"
     },
     {
         "code": "N49",
+        "federalseatcode": "P111",
         "level": "State",
+        "state": "Selangor",
         "name": "Sungai Kandis"
     },
     {
         "code": "N50",
+        "federalseatcode": "P111",
         "level": "State",
+        "state": "Selangor",
         "name": "Kota Kemuning"
     },
     {
         "code": "N51",
+        "federalseatcode": "P112",
         "level": "State",
+        "state": "Selangor",
         "name": "Sijangkang"
     },
     {
         "code": "N52",
+        "federalseatcode": "P112",
         "level": "State",
+        "state": "Selangor",
         "name": "Banting"
     },
     {
         "code": "N53",
+        "federalseatcode": "P112",
         "level": "State",
+        "state": "Selangor",
         "name": "Morib"
     },
     {
         "code": "N54",
+        "federalseatcode": "P113",
         "level": "State",
+        "state": "Selangor",
         "name": "Tanjong Sepat"
     },
     {
         "code": "N55",
+        "federalseatcode": "P113",
         "level": "State",
+        "state": "Selangor",
         "name": "Dengkil"
     },
     {
         "code": "N56",
+        "federalseatcode": "P113",
         "level": "State",
+        "state": "Selangor",
         "name": "Sungai Pelek"
     }
 ]

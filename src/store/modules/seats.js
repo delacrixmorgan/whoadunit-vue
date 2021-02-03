@@ -6,12 +6,16 @@ export default {
     namespace: true,
     state() {
         return {
-            seats: ADUNJson.concat(MPJson)
+            mpSeats: MPJson,
+            adunSeats: ADUNJson
         }
     },
     getters: {
-        seats(state) {
-            return state.seats;
+        mpSeats(state) {
+            return state.mpSeats;
+        },
+        adunSeats(state) {
+            return state.adunSeats;
         }
     },
     actions: {
