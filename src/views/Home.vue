@@ -1,8 +1,8 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
+  <div>
+    <img class="mx-auto" alt="Vue logo" src="../assets/logo.png" />
     <landing-page></landing-page>
-    <div class="row mx-auto search-viewgroup">
+    <div class="row mx-auto w-4/5 mt-2">
       <seat-auto-complete-search class="col-sm search-viewgroup" type="mp" />
       <seat-auto-complete-search class="col-sm search-viewgroup" type="adun" />
     </div>
@@ -10,16 +10,16 @@
 </template>
 
 <script>
-// @ is an alias to /src
-import LandingPage from '@/components/LandingPage.vue'
+import LandingPage from "@/components/LandingPage.vue";
 import SeatAutoCompleteSearch from "@/components/seat/SeatAutoCompleteSearch";
 
 export default {
-  name: 'Home',
+  name: "Home",
   components: {
-    LandingPage, SeatAutoCompleteSearch
-  }
-}
+    LandingPage,
+    SeatAutoCompleteSearch,
+  },
+};
 </script>
 <style scoped>
 .search-viewgroup {

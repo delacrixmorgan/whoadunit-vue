@@ -1,7 +1,7 @@
 <template>
   <div>
     <input
-      class="search-box"
+      class="w-full focus:outline-none focus:ring focus:border-blue-300 text-sm text-black placeholder-gray-500 border border-gray-200 rounded-md py-3 pl-5"
       type="text"
       :placeholder="placeholder"
       v-model.trim="searchQuery"
@@ -10,6 +10,7 @@
       @keydown.esc="onEsc"
       @keydown.down="onArrowDown"
       @keydown.up="onArrowUp"
+      @keydown.tab="onEnter"
       @keydown.enter="onEnter"
     />
     <ul v-show="isOpen" class="autocomplete-results">
@@ -76,7 +77,7 @@ export default {
         this.arrowCounter = this.results.length - 1;
       }
     },
-    onEsc() {
+     onEsc() {
       this.isOpen = false;
       this.arrowCounter = -1;
     },
@@ -111,17 +112,6 @@ export default {
 };
 </script>
 <style scoped>
-.search-box {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-}
-.autocomplete {
-  position: relative;
-  width: 130px;
-}
-
 .autocomplete-results {
   padding: 0;
   margin: 0;

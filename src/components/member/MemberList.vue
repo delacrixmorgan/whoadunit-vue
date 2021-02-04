@@ -2,7 +2,7 @@
   <div>
     <form class="mx-auto search-viewgroup">
       <input
-        class="search-box"
+        class="w-full focus:outline-none focus:ring focus:border-blue-300 text-sm text-black placeholder-gray-500 border border-gray-200 rounded-md py-3 pl-5"
         type="text"
         placeholder="Search..."
         v-model.trim="searchQuery"
@@ -75,12 +75,5 @@ export default {
 .seat-list-viewgroup {
   width: 80%;
   margin-top: 16px;
-}
-
-.search-box {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
 }
 </style>
