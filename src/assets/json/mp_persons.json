@@ -1,30 +1,36 @@
 [
     {
+        "id": "72e4d6d7-37aa-be93-70d6-16d6596ab5a3",
         "federalseatcode": "P92",
         "status": "Incumbent",
         "name": "Mohamad Fasiah Mohd Fakeh"
     },
     {
+        "id": "fd720f97-38c8-ac03-8cfa-fbf68fa63a61",
         "federalseatcode": "P93",
         "status": "Incumbent",
         "name": "Muslimin Yahaya"
     },
     {
+        "id": "7b93b212-5cb9-7180-daaf-a9fd66efa136",
         "federalseatcode": "P94",
         "status": "Incumbent",
         "name": "June Leow Hsiad Hui"
     },
     {
+        "id": "0d1f3100-f8a4-7bcb-d0a8-e7841e54814c",
         "federalseatcode": "P95",
         "status": "Incumbent",
         "name": "Noh Omar"
     },
     {
+        "id": "9eb2d454-8848-db9e-bca3-e255f69a8c4d",
         "federalseatcode": "P96",
         "status": "Incumbent",
         "name": "Dzulkefly Ahmad"
     },
     {
+        "id": "637b2b6d-826f-24d4-b0f6-6b38d2db54fd",
         "federalseatcode": "P97",
         "status": "Incumbent",
         "name": "William Leong Jee Keen",
@@ -34,66 +40,79 @@
         "twitter": "https://twitter.com/LeongJeeKeen"
     },
     {
+        "id": "31aaca88-ca94-b70f-1a1d-c378d5cacefe",
         "federalseatcode": "P98",
         "status": "Incumbent",
         "name": "Mohamed Azmin Ali"
     },
     {
+        "id": "b9064c3a-7b81-fa6f-86fa-9ef4c08ffc62",
         "federalseatcode": "P99",
         "status": "Incumbent",
         "name": "Zuraida Kamaruddin"
     },
     {
+        "id": "5df6a16b-bc1d-2b3e-beef-b75ba2c11969",
         "federalseatcode": "P100",
         "status": "Incumbent",
         "name": "Wan Azizah Wan Ismail"
     },
     {
+        "id": "5a7b8633-8bf2-4f29-8165-cf9dee4c0c35",
         "federalseatcode": "P101",
         "status": "Incumbent",
         "name": "Hasanuddin Mohd Yunus"
     },
     {
+        "id": "f4933486-f6a0-5e7f-ddce-f789c6646d16",
         "federalseatcode": "P102",
         "status": "Incumbent",
         "name": "Ong Kian Ming"
     },
     {
+        "id": "471b3a94-ab3d-8b99-1415-4314496e1d17",
         "federalseatcode": "P103",
         "status": "Incumbent",
         "name": "Gobind Singh Deo"
     },
     {
+        "id": "4d3c2db8-7df1-45a3-d386-84668140743b",
         "federalseatcode": "P104",
         "status": "Incumbent",
         "name": "Wong Chen"
     },
     {
+        "id": "c2f39e89-9abd-e620-07e7-dc329e4f85f7",
         "federalseatcode": "P105",
         "status": "Incumbent",
         "name": "Maria Chin Abdullah"
     },
     {
+        "id": "f982524d-88cf-c466-7867-f1bf8cd7ccc7",
         "federalseatcode": "P106",
         "status": "Incumbent",
         "name": "Tony Pua Kiam Wee"
     },
     {
+        "id": "7378fa52-d410-ffdc-c984-bd6904446f3e",
         "federalseatcode": "P107",
         "status": "Incumbent",
         "name": "Sivarasa K. Rasiah"
     },
     {
+        "id": "7d566a47-8753-ce2e-eb6a-487d58f039e6",
         "federalseatcode": "P108",
         "status": "Incumbent",
         "name": "Khalid Abdul Samad"
     },
     {
+        "id": "922c19b0-5d97-c616-ff56-7b26e1231613",
         "federalseatcode": "P109",
         "status": "Incumbent",
         "name": "Abdullah Sani Abdul Hamid"
     },
     {
+        "id": "6d3c5bf7-9151-bbd1-487d-7681e22b234f",
         "federalseatcode": "P110",
         "status": "Incumbent",
         "name": "Charles Anthony R. Santiago",
@@ -103,16 +122,19 @@
         "twitter": "https://twitter.com/mpklang"
     },
     {
+        "id": "626c7a27-3b26-5364-24d4-7d70d7910bf6",
         "federalseatcode": "P111",
         "status": "Incumbent",
         "name": "Mohamad Sabu"
     },
     {
+        "id": "8f7dbcc4-a689-dece-03c4-42c8db8dad37",
         "federalseatcode": "P112",
         "status": "Incumbent",
         "name": "Xavier Jayakumar Arulanandam"
     },
     {
+        "id": "769e62fe-a9d3-b06b-ca06-1bdaf901bb97",
         "federalseatcode": "P113",
         "status": "Incumbent",
         "name": "Mohamed Hanipa Maidin"

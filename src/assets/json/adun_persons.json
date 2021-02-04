@@ -1,83 +1,97 @@
 [
     {
+        "id": "45e19a33-4b00-cb00-2a31-a5fa81d486ba",
         "federalseatcode": "P92",
         "stateseatcode": "N1",
         "status": "Incumbent",
         "name": "Rizam Ismail"
     },
     {
+        "id": "449e6a7b-e168-5867-0f01-4b0a64a222c4",
         "federalseatcode": "P92",
         "stateseatcode": "N2",
         "status": "Incumbent",
         "name": "Ahmad Mustain Othman"
     },
     {
+        "id": "bc10fc99-e5d7-8090-b176-43e1b6d21149",
         "federalseatcode": "P93",
         "stateseatcode": "N3",
         "status": "Incumbent",
         "name": "Mohd Imran Tamrin"
     },
     {
+        "id": "7151cbd9-a48b-f088-6336-492229a417d6",
         "federalseatcode": "P93",
         "stateseatcode": "N4",
         "status": "Incumbent",
         "name": "Ng Suee Lim"
     },
     {
+        "id": "c69dab7f-1f17-8f4b-8583-32cc60f52dc1",
         "federalseatcode": "P94",
         "stateseatcode": "N5",
         "status": "Incumbent",
         "name": "Rosni Sohar"
     },
     {
+        "id": "11d9d81c-0e3f-a37e-64bc-a60f1e210501",
         "federalseatcode": "P94",
         "stateseatcode": "N6",
         "status": "Incumbent",
         "name": "Lee Kee Hiong"
     },
     {
+        "id": "abfe62bc-c59a-7537-b8d5-4ee7f43a7e22",
         "federalseatcode": "P94",
         "stateseatcode": "N7",
         "status": "Incumbent",
         "name": "Harumaini Omar"
     },
     {
+        "id": "9abd6494-6ac4-d01c-81d1-4757cc64ac17",
         "federalseatcode": "P95",
         "stateseatcode": "N8",
         "status": "Incumbent",
         "name": "Mohd Shamsuddin Lias"
     },
     {
+        "id": "221deed9-bfa3-8c98-6f90-a9248caa7666",
         "federalseatcode": "P95",
         "stateseatcode": "N9",
         "status": "Incumbent",
         "name": "Rozana Zainal Abidin"
     },
     {
+        "id": "401fbaf4-c8eb-f53e-aea2-70eecbf958b3",
         "federalseatcode": "P96",
         "stateseatcode": "N10",
         "status": "Incumbent",
         "name": "Juwairiya Zulkifli"
     },
     {
+        "id": "52671793-b701-31db-3edf-89251d008725",
         "federalseatcode": "P96",
         "stateseatcode": "N11",
         "status": "Incumbent",
         "name": "Idris Ahmad"
     },
     {
+        "id": "20bba4a1-6b1b-ba4e-675c-49effd3b5b81",
         "federalseatcode": "P96",
         "stateseatcode": "N12",
         "status": "Incumbent",
         "name": "Mohd Shaid Rosli"
     },
     {
+        "id": "561d7ce7-057d-dffe-33f3-0e72e4e16e81",
         "federalseatcode": "P97",
         "stateseatcode": "N13",
         "status": "Incumbent",
         "name": "Sallehudin Amiruddin"
     },
     {
+        "id": "b9681314-6efe-b721-7d8b-db32c995e9b5",
         "federalseatcode": "P97",
         "stateseatcode": "N14",
         "status": "Incumbent",
@@ -88,186 +102,217 @@
         "twitter": "https://twitter.com/chuaweikiat"
     },
     {
+        "id": "38828567-74fe-87e9-a7e7-d8017df96edd",
         "federalseatcode": "P97",
         "stateseatcode": "N15",
         "status": "Incumbent",
         "name": "Mohd. Sany Hamzan"
     },
     {
+        "id": "c52c1af7-ca62-fe0d-dc9a-82997d9f1c04",
         "federalseatcode": "P98",
         "stateseatcode": "N16",
         "status": "Incumbent",
         "name": "Amirudin Shari"
     },
     {
+        "id": "b670b19b-0df4-f684-ce6c-44535a4d82a6",
         "federalseatcode": "P98",
         "stateseatcode": "N17",
         "status": "Incumbent",
         "name": "Hilman Idham"
     },
     {
+        "id": "2f78676d-16f8-44e4-23b5-4e159b764d20",
         "federalseatcode": "P98",
         "stateseatcode": "N18",
         "status": "Incumbent",
         "name": "Saari Sungib"
     },
     {
+        "id": "ee442c4d-7eb0-2235-8b4d-c3b5bdca3d2b",
         "federalseatcode": "P99",
         "stateseatcode": "N19",
         "status": "Incumbent",
         "name": "Mohamed Azmin Ali"
     },
     {
+        "id": "6dca7789-5709-69e7-f16b-1130b4255009",
         "federalseatcode": "P99",
         "stateseatcode": "N20",
         "status": "Incumbent",
         "name": "Haniza Mohamed Talha"
     },
     {
+        "id": "24625aab-935d-3f20-6cdf-b1b27e17ed56",
         "federalseatcode": "P100",
         "stateseatcode": "N21",
         "status": "Incumbent",
         "name": "Izham Hashim"
     },
     {
+        "id": "f77ff366-8d52-2d67-d8ab-c344a8e9f81e",
         "federalseatcode": "P100",
         "stateseatcode": "N22",
         "status": "Incumbent",
         "name": "Lai Wai Chong"
     },
     {
+        "id": "ed631a8b-7096-3739-2ee0-7e41c8633563",
         "federalseatcode": "P101",
         "stateseatcode": "N23",
         "status": "Incumbent",
         "name": "Edry Faizal Eddy Yusof"
     },
     {
+        "id": "557196b3-bce7-3152-f765-f0b7a812c38e",
         "federalseatcode": "P101",
         "stateseatcode": "N24",
         "status": "Incumbent",
         "name": "Zakaria Hanafi"
     },
     {
+        "id": "36672508-a674-b7c4-ba59-b717ed2a57fd",
         "federalseatcode": "P102",
         "stateseatcode": "N25",
         "status": "Incumbent",
         "name": "Hee Loy Sian"
     },
     {
+        "id": "7f293898-8291-a79a-168f-a83eb8f211a9",
         "federalseatcode": "P102",
         "stateseatcode": "N26",
         "status": "Incumbent",
         "name": "Mazwan Johar"
     },
     {
+        "id": "eb543354-be3f-d296-da4d-b0b802c1ec3f",
         "federalseatcode": "P102",
         "stateseatcode": "N27",
         "status": "Incumbent",
         "name": "Wong Siew Ki"
     },
     {
+        "id": "1cf02220-2243-1e4f-494f-142beaae7c1d",
         "federalseatcode": "P103",
         "stateseatcode": "N28",
         "status": "Incumbent",
         "name": "Ean Yong Hian Wah"
     },
     {
+        "id": "e44a5356-23fd-1e44-d53c-c92805b8fa75",
         "federalseatcode": "P103",
         "stateseatcode": "N29",
         "status": "Incumbent",
         "name": "Siti Mariah Mahmud"
     },
     {
+        "id": "c9ae5def-1b36-2cc3-6db0-8fd1879fc31c",
         "federalseatcode": "P104",
         "stateseatcode": "N30",
         "status": "Incumbent",
         "name": "Ng Sze Han"
     },
     {
+        "id": "887d26df-0677-a974-b28f-0bc727fd905c",
         "federalseatcode": "P104",
         "stateseatcode": "N31",
         "status": "Incumbent",
         "name": "Michelle Ng Mei Sze"
     },
     {
+        "id": "9f4be3b2-c01a-4269-6e81-2fc1a5b1ced8",
         "federalseatcode": "P105",
         "stateseatcode": "N32",
         "status": "Incumbent",
         "name": "Halimey Abu Bakar"
     },
     {
+        "id": "d8fd55a6-eb23-c35f-59ce-7b0714f8bce3",
         "federalseatcode": "P105",
         "stateseatcode": "N33",
         "status": "Incumbent",
         "name": "Syamsul Firdaus Mohamed Supri"
     },
     {
+        "id": "cec20f5c-8399-c956-b0f5-8dee04a5fba3",
         "federalseatcode": "P105",
         "stateseatcode": "N34",
         "status": "Incumbent",
         "name": "Rajiv Rishyakaran"
     },
     {
+        "id": "abc27c3c-9e7a-298f-e29d-884b5a20d40b",
         "federalseatcode": "P106",
         "stateseatcode": "N35",
         "status": "Incumbent",
         "name": "Lim Yi Wei"
     },
     {
+        "id": "e63bbf8b-4a77-5a25-3995-ddeac1425466",
         "federalseatcode": "P106",
         "stateseatcode": "N36",
         "status": "Incumbent",
         "name": "Jamaliah Jamaluddin"
     },
     {
+        "id": "3feddf99-df16-f8c3-249d-bf56455602e9",
         "federalseatcode": "P106",
         "stateseatcode": "N37",
         "status": "Incumbent",
         "name": "Elizabeth Wong Keat Ping"
     },
     {
+        "id": "2ed37163-5901-d3ef-d7ae-2a9822c448ba",
         "federalseatcode": "P107",
         "stateseatcode": "N38",
         "status": "Incumbent",
         "name": "Mohd. Khairuddin Othman"
     },
     {
+        "id": "f81a47b1-3653-4adc-7cfd-d7bbe4ac45d4",
         "federalseatcode": "P107",
         "stateseatcode": "N39",
         "status": "Incumbent",
         "name": "Shatiri Mansor"
     },
     {
+        "id": "8bc938d5-3e4e-5393-8aa7-b8fe9eed251b",
         "federalseatcode": "P108",
         "stateseatcode": "N40",
         "status": "Incumbent",
         "name": "Najwan Halimi"
     },
     {
+        "id": "86add610-c07e-6d2f-935c-66e18412c117",
         "federalseatcode": "P108",
         "stateseatcode": "N41",
         "status": "Incumbent",
         "name": "Rodziah Ismail"
     },
     {
+        "id": "5dce3a8a-530e-7146-0d68-44c316655d9b",
         "federalseatcode": "P109",
         "stateseatcode": "N42",
         "status": "Incumbent",
         "name": "Mohd. Fakhrulrazi Mohd Mokhtar"
     },
     {
+        "id": "5d18949e-06ca-1bd5-6bc5-7f91a6c47391",
         "federalseatcode": "P109",
         "stateseatcode": "N43",
         "status": "Incumbent",
         "name": "Dr. Daroyah Alwi"
     },
     {
+        "id": "34e76057-dc90-c57f-8d25-34904b4ba3b0",
         "federalseatcode": "P109",
         "stateseatcode": "N44",
         "status": "Incumbent",
         "name": "Abdul Rashid Asari"
     },
     {
+        "id": "3f1671eb-93eb-b42e-83f4-93f5bb00bbc6",
         "federalseatcode": "P110",
         "stateseatcode": "N45",
         "status": "Incumbent",
@@ -278,66 +323,77 @@
         "twitter": "https://twitter.com/tengchangkhim"
     },
     {
+        "id": "a8cb98cb-7bcc-df5b-7337-291209e68fe5",
         "federalseatcode": "P110",
         "stateseatcode": "N46",
         "status": "Incumbent",
         "name": "Azmizam Zaman Huri"
     },
     {
+        "id": "912117e6-d15a-d48b-82d5-602cd8f34560",
         "federalseatcode": "P110",
         "stateseatcode": "N47",
         "status": "Incumbent",
         "name": "Leong Tuck Chee"
     },
     {
+        "id": "05a605e2-2d35-a33c-6a00-b07a5f877ba9",
         "federalseatcode": "P111",
         "stateseatcode": "N48",
         "status": "Incumbent",
         "name": "Gunarajah George"
     },
     {
+        "id": "fa7d59f9-0c73-1f38-2174-7748937be22e",
         "federalseatcode": "P111",
         "stateseatcode": "N49",
         "status": "Incumbent",
         "name": "Zawawi Mughni"
     },
     {
+        "id": "20eb4ff4-f0bf-ff6d-cc9b-7f9d36741602",
         "federalseatcode": "P111",
         "stateseatcode": "N50",
         "status": "Incumbent",
         "name": "Ganabatirau Veraman"
     },
     {
+        "id": "b67b4008-c108-0645-aeae-32b1d9c66cb5",
         "federalseatcode": "P112",
         "stateseatcode": "N51",
         "status": "Incumbent",
         "name": "Dr. Ahmad Yunus Hairi"
     },
     {
+        "id": "4200f495-db47-610b-a57a-79643d3ea2cf",
         "federalseatcode": "P112",
         "stateseatcode": "N52",
         "status": "Incumbent",
         "name": "Lau Weng San"
     },
     {
+        "id": "1f1b16f8-f131-81e8-1bf1-72c295632522",
         "federalseatcode": "P112",
         "stateseatcode": "N53",
         "status": "Incumbent",
         "name": "Hasnul Baharuddin"
     },
     {
+        "id": "bd7f87c7-46ea-e5ce-706b-3c1c3d100aa2",
         "federalseatcode": "P113",
         "stateseatcode": "N54",
         "status": "Incumbent",
         "name": "Borhan Aman Shah"
     },
     {
+        "id": "a70a79f8-9b0b-3ad0-824e-535daed3ec49",
         "federalseatcode": "P113",
         "stateseatcode": "N55",
         "status": "Incumbent",
         "name": "Adhif Syan Abdullah"
     },
     {
+        "id": "aa2d05b8-5862-eab4-dd65-8569941e6ba7",
         "federalseatcode": "P113",
         "stateseatcode": "N56",
         "status": "Incumbent",
