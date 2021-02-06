@@ -10,7 +10,7 @@ export default {
         }
     },
     getters: {
-        persons(state){
+        persons(state) {
             return state.persons;
         },
         mpPersons(state) {
@@ -29,6 +29,17 @@ export default {
         }
     },
     actions: {
+        findPersonBySeat(context, payload) {
+            const federalSeatCode = payload.seat.federalseatcode;
+            const stateSeatCode = payload.seat.stateseatcode;
+
+            const filteredPerson = context.state.persons.filter(
+                (person) =>
+                    person.federalseatcode == federalSeatCode &&
+                    person.stateseatcode == stateSeatCode
+            );
+            return filteredPerson[0];
+        }
     },
     mutations: {
     }

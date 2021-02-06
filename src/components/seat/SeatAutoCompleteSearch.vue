@@ -21,13 +21,21 @@
         :key="seat.id"
         @click="setResult(seat)"
       >
-        {{ seat.code }} {{ seat.name }}
+        {{ getSeatCode(seat) }} {{ seat.name }}
       </li>
     </ul>
+    <div v-if="person" class="mt-4">
+      <person-card :person="person" :seat="selectedSeat"></person-card>
+    </div>
   </div>
 </template>
 <script>
+import PersonCard from "@/components/person/PersonCard";
+
 export default {
+  components: {
+    PersonCard,
+  },
   props: ["type"],
   data() {
     return {
@@ -38,6 +46,7 @@ export default {
       isOpen: false,
       results: [],
       arrowCounter: -1,
+      person: null,
     };
   },
   created() {
@@ -51,6 +60,15 @@ export default {
     }
   },
   methods: {
+    getSeatCode(seat) {
+      if (this.type == "mp") {
+        return seat.federalseatcode;
+      }
+
+      if (this.type == "adun") {
+        return seat.stateseatcode;
+      }
+    },
     onChange() {
       this.isOpen = true;
       const seats = this.$store.getters[this.getterEndpoint];
@@ -59,7 +77,7 @@ export default {
       this.results = seats.filter(
         (seat) =>
           seat.name.toLowerCase().includes(query) ||
-          seat.code.toLowerCase().includes(query) ||
+          this.getSeatCode(seat).toLowerCase().includes(query) ||
           seat.level.toLowerCase().includes(query)
       );
     },
@@ -77,24 +95,32 @@ export default {
         this.arrowCounter = this.results.length - 1;
       }
     },
-     onEsc() {
+    onEsc() {
       this.isOpen = false;
       this.arrowCounter = -1;
     },
     onEnter() {
       const seat = this.results[this.arrowCounter];
       if (this.arrowCounter >= 0) {
-        this.selectedSeat = seat;
-        this.searchQuery = seat.code + " " + seat.name;
+        this.setResult(seat);
       }
+    },
+    setResult(seat) {
+      this.setPerson(seat);
+      this.selectedSeat = seat;
+      this.searchQuery = this.getSeatCode(seat) + " " + seat.name;
 
       this.isOpen = false;
       this.arrowCounter = -1;
     },
-    setResult(seat) {
-      this.selectedSeat = seat;
-      this.searchQuery = seat.code + " " + seat.name;
-      this.isOpen = false;
+    setPerson(seat) {
+      this.$store
+        .dispatch("findPersonBySeat", {
+          seat: seat,
+        })
+        .then((response) => {
+          this.person = response;
+        });
     },
     handleClickOutside(event) {
       if (!this.$el.contains(event.target)) {

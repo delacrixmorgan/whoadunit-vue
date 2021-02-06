@@ -20,7 +20,7 @@
         <seat-item
           v-for="seat in filteredSeats"
           :key="seat.id"
-          :code="seat.code"
+          :code= getSeatCode(seat)
           :level="seat.level"
           :name="seat.name"
         />
@@ -50,7 +50,7 @@ export default {
       return seats.filter(
         (seat) =>
           seat.name.toLowerCase().includes(query) ||
-          seat.code.toLowerCase().includes(query) ||
+          this.getSeatCode(seat).toLowerCase().includes(query) ||
           seat.level.toLowerCase().includes(query)
       );
     },
@@ -63,7 +63,17 @@ export default {
       this.getterEndpoint = "mpSeats";
     }
   },
-  methods: {},
+  methods: {
+    getSeatCode(seat) {
+      if (this.type == "mp") {
+        return seat.federalseatcode;
+      }
+
+      if (this.type == "adun") {
+        return seat.stateseatcode;
+      }
+    },
+  },
 };
 </script>
 <style scoped>
