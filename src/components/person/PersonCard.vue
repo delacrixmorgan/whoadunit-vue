@@ -5,7 +5,7 @@
     <div class="md:flex">
       <div class="md:flex-shrink-0">
         <img
-          class="max-h-md object-cover md:w-48"
+          class="h-full object-cover md:w-48"
           src="https://tailwindcss.com/_next/static/media/kids-jumper.47a06f045002a3e6ba595351a36a46eb.jpg"
         />
       </div>
@@ -27,17 +27,16 @@
             </p>
           </div>
           <p class="text-base mb-2">
-            Pusat Khidmat Dun Bandar Baru Klang<br />LG-4, 1E Jalan Pekan Baru
-            34<br />41010 Klang, Selangor
+            {{ seat.address }}
           </p>
           <figcaption class="mb-2">
             <a
-              href="mailto:khim@selangor.gov.my"
+              :href=linkMailToPersonEmail()
               class="no-underline hover:underline"
               >{{ person.email }}</a
             >
             <br />
-            +{{ person.phonenumber }}
+            +{{ seat.phonenumber }}
           </figcaption>
         </div>
         <div class="flex items-center">
@@ -91,15 +90,22 @@ export default {
   props: ["person", "seat"],
   methods: {
     getSeatType() {
-        console.log(this.seat)
-        console.log(this.seat.federalseatcode)
-      if (this.seat.federalseatcode != null && this.seat.stateseatcode == null) {
+      if (
+        this.seat.federalseatcode != null &&
+        this.seat.stateseatcode == null
+      ) {
         return "MP";
       }
 
-      if (this.seat.federalseatcode != null && this.seat.stateseatcode != null) {
+      if (
+        this.seat.federalseatcode != null &&
+        this.seat.stateseatcode != null
+      ) {
         return "ADUN";
       }
+    },
+    linkMailToPersonEmail() {
+      return "mailto:" + this.person.email;
     },
   },
 };
