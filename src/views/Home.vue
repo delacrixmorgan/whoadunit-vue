@@ -1,8 +1,7 @@
 <template>
   <div>
-    <img class="mx-auto" alt="Vue logo" src="../assets/logo.png" />
     <landing-page></landing-page>
-    <div class="row mx-auto w-4/5 mt-2">
+    <div class="h-screen md:min-h-full row mx-auto w-4/5 mt-2">
       <seat-auto-complete-search class="col-sm search-viewgroup" type="mp" />
       <seat-auto-complete-search class="col-sm search-viewgroup" type="adun" />
     </div>
