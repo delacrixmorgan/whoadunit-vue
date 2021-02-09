@@ -1,4 +1,3 @@
-// import axios from "axios"
 import ADUNJson from "@/assets/json/adun_persons.json"
 import MPJson from "@/assets/json/mp_persons.json"
 
@@ -6,7 +5,7 @@ export default {
     namespace: true,
     state() {
         return {
-            persons: ADUNJson.concat(MPJson)
+            persons: MPJson.concat(ADUNJson)
         }
     },
     getters: {
@@ -29,6 +28,13 @@ export default {
         }
     },
     actions: {
+        findPersonById(context, payload) {
+            const filteredPerson = context.state.persons.filter(
+                (person) =>
+                    person.id == payload.id
+            );
+            return filteredPerson[0];
+        },
         findPersonBySeat(context, payload) {
             const federalSeatCode = payload.seat.federalseatcode;
             const stateSeatCode = payload.seat.stateseatcode;

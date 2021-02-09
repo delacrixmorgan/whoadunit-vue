@@ -35,9 +35,7 @@
                       />
                     </svg>
                   </span>
-                  <p class="ml-2">
-                    Want to write an email to your ADUN?
-                  </p>
+                  <p class="ml-2">Want to write an email to your ADUN?</p>
                 </li>
                 <li class="flex items-start">
                   <span class="h-6 flex items-center sm:h-7">

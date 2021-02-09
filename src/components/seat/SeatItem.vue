@@ -1,5 +1,5 @@
 <template>
-  <tr @click="gotToMemberDetails()">
+  <tr @click="gotToSeatDetails()">
     <th scope="row">{{ code }}</th>
     <td>{{ level }}</td>
     <td class="text-left">{{ name }}</td>
@@ -8,10 +8,19 @@
 
 <script>
 export default {
-  props: ["name", "code", "level"],
+  props: ["name", "code", "level", "state"],
   methods: {
-    gotToMemberDetails() {
-      this.$router.push({ path: `/seat/${this.code}` })
+    gotToSeatDetails() {
+      let levelPath = "";
+
+      if (this.level == "Federal") {
+        levelPath = "mp";
+      }
+      if (this.level == "State") {
+        levelPath = "adun";
+      }
+
+      this.$router.push({ path: `${levelPath}/${this.state.toLowerCase()}/${this.code}` });
     },
   },
 };

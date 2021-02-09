@@ -1,13 +1,13 @@
 <template>
-  <div>
-    <h3>Member List</h3>
-    <member-list :type = type></member-list>
+  <div class="p-4">
+    <h3>{{ type.toUpperCase() }} List</h3>
+    <seat-list :type = type></seat-list>
   </div>
 </template>
 <script>
-import MemberList from "../../components/member/MemberList.vue";
+import SeatList from "../../components/seat/SeatList.vue";
 export default {
-  components: { MemberList },
+  components: { SeatList },
   props: ["state"],
   data() {
     return {

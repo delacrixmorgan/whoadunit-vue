@@ -2,9 +2,10 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import About from '../views/About.vue'
+import SeatList from '../views/seat/SeatList'
 import SeatDetail from '../views/seat/SeatDetail'
-import MemberList from '../views/member/MemberList'
-import MemberDetail from '../views/member/MemberDetail'
+import PersonList from '../views/person/PersonList'
+import PersonDetail from '../views/person/PersonDetail'
 
 Vue.use(VueRouter)
 
@@ -28,43 +29,49 @@ const routes = [
   {
     path: '/adun',
     name: 'AdunList',
-    component: MemberList,
+    component: SeatList,
     props: true
   },
   {
     path: '/mp',
     name: 'MpList',
-    component: MemberList,
+    component: SeatList,
     props: true
   },
   {
     path: '/adun/:state/',
     name: 'AdunStateList',
-    component: MemberList,
+    component: SeatList,
     props: true
   },
   {
     path: '/mp/:state',
     name: 'MpStateList',
-    component: MemberList,
+    component: SeatList,
     props: true
   },
   {
     path: '/adun/:state/:code',
     name: 'ADUNDetail',
-    component: MemberDetail,
+    component: SeatDetail,
     props: true
   },
   {
     path: '/mp/:state/:code',
     name: 'MPDetail',
-    component: MemberDetail,
+    component: SeatDetail,
+    props: true
+  },
+  {
+    path: '/person',
+    name: 'PersonList',
+    component: PersonList,
     props: true
   },
   {
     path: '/person/:id',
     name: 'PersonDetail',
-    component: SeatDetail,
+    component: PersonDetail,
     props: true
   }
 ]
