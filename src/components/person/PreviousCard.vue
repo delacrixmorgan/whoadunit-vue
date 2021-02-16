@@ -2,11 +2,11 @@
   <div
     class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-xl mb-4 transform transition duration-700 ease-in-out hover:scale-105"
   >
-    <div>
+    <div class="md:flex">
       <div class="md:flex-shrink-0">
         <img
-          class="object-cover max-h-64 w-full"
-          src="https://images.unsplash.com/photo-1518640467707-6811f4a6ab73?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+          class="h-auto w-full object-cover max-h-64 md:w-auto"
+          src="https://tailwindcss.com/_next/static/media/kids-jumper.47a06f045002a3e6ba595351a36a46eb.jpg"
         />
       </div>
       <div class="relative pt-4 pb-4 pl-8 pr-8">
@@ -26,7 +26,7 @@
               {{ seat.name }}
             </p>
           </div>
-          <p class="text-base mb-2 h-20">
+          <p class="text-base mb-2">
             {{ seat.address }}
           </p>
           <figcaption class="mb-2">
@@ -41,20 +41,6 @@
         </div>
         <div class="flex items-center">
           <a
-            class="flex-none flex items-center py-2 px-4 justify-center bg-purple-50 text-purple-700 hover:text-purple-50 hover:bg-purple-600 rounded-full"
-            type="button"
-          >
-            <button @click="gotToPersonDetails()">View Details</button>
-          </a>
-
-          <!-- <button
-            class="w-1/2 flex items-center justify-center rounded-full bg-purple-50 text-purple-700"
-            type="button"
-          >
-            Add to bag
-          </button>
-
-          <a
             class="flex-none flex mr-2 items-center justify-center w-9 h-9 rounded-full bg-purple-50 text-purple-700 hover:text-purple-50 hover:bg-purple-600"
             type="button"
             href="https://www.google.com"
@@ -92,7 +78,7 @@
                 d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
               />
             </svg>
-          </a> -->
+          </a>
         </div>
       </div>
     </div>
@@ -120,11 +106,6 @@ export default {
     },
     linkMailToPersonEmail() {
       return "mailto:" + this.person.email;
-    },
-    gotToPersonDetails() {
-      this.$router.push({
-        path: `person/${this.person.id}`,
-      });
     },
   },
 };

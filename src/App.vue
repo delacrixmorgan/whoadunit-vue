@@ -7,6 +7,7 @@
           <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
             <!-- Mobile menu button-->
             <button
+              @click="onNavMenuToggle"
               class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
               aria-expanded="false"
             >
@@ -70,11 +71,11 @@
                 alt="Workflow"
               /> -->
 
-              <router-link to="/" class="block lg:hidden h-8 w-auto">
+              <router-link to="/" @click.native = onNavMenuHide class="block lg:hidden h-8 w-auto">
                 <p class="text-white font-black text-lg">WHOADUNIT</p>
               </router-link>
 
-              <router-link to="/" class="hidden lg:block h-8 w-auto">
+              <router-link to="/" @click.native = onNavMenuHide class="hidden lg:block h-8 w-auto">
                 <p class="text-white font-black text-lg">WHOADUNIT</p>
               </router-link>
             </div>
@@ -192,29 +193,33 @@
 
     Menu open: "block", Menu closed: "hidden"
   -->
-      <div class="hidden sm:hidden">
+      <div v-show="isMobileNavMenuVisible">
         <div class="px-2 pt-2 pb-3 space-y-1">
           <router-link
             to="/mp"
-            class="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium"
+            @click.native = onNavMenuHide
+            class="nav-menu-item-active-link text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
             >Members of Parliament</router-link
           >
 
           <router-link
             to="/adun"
-            class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+            @click.native = onNavMenuHide
+            class="nav-menu-item-active-link text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
             >ADUN</router-link
           >
 
           <router-link
             to="/person"
-            class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+            @click.native = onNavMenuHide
+            class="nav-menu-item-active-link text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
             >Person</router-link
           >
 
           <router-link
             to="/about"
-            class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+            @click.native = onNavMenuHide
+            class="nav-menu-item-active-link text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
             >About</router-link
           >
         </div>
@@ -223,6 +228,24 @@
     <router-view :key="$route.fullPath"> </router-view>
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      isMobileNavMenuVisible: false,
+    };
+  },
+  methods: {
+    onNavMenuToggle() {
+      this.isMobileNavMenuVisible = !this.isMobileNavMenuVisible;
+    },
+    onNavMenuHide() {
+      this.isMobileNavMenuVisible = false;
+    },
+  },
+};
+</script>
 
 <style>
 #app {
@@ -249,4 +272,9 @@
 .router-link-exact-active.menu-item-active-link {
   @apply bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium;
 }
+
+.router-link-exact-active.nav-menu-item-active-link{
+  @apply bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium
+}
+
 </style>

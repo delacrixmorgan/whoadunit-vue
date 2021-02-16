@@ -1,5 +1,5 @@
 <template>
-  <tr @click="gotToSeatDetails()">
+  <tr @click="gotToPersonDetails()">
     <th scope="row">{{ formatSeatCode() }}</th>
     <td>{{ person.status }}</td>
     <td class="text-left">{{ person.name }}</td>
@@ -18,7 +18,7 @@
       </svg>
     </td>
     <td class="">
-        <svg
+      <svg
         v-if="person.twitter"
         class="flex-shrink-0 h-5 w-5 text-green-500 mx-auto"
         fill="currentColor"
@@ -37,7 +37,7 @@
 export default {
   props: ["person"],
   created() {
-    console.log(this.person);
+    // console.log(this.person);
   },
   methods: {
     formatSeatCode() {
@@ -47,7 +47,7 @@ export default {
       }
       return seatCode;
     },
-    gotToSeatDetails() {
+    gotToPersonDetails() {
       this.$router.push({
         path: `person/${this.person.id}`,
       });

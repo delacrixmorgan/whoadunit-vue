@@ -1,6 +1,6 @@
 <template>
   <div class="p-4">
-    <h3>{{ type.toUpperCase() }} List</h3>
+    <h1 class="text-2xl font-extrabold">{{ type.toUpperCase() }}</h1>
     <seat-list :type = type></seat-list>
   </div>
 </template>

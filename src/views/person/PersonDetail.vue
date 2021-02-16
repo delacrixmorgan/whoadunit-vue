@@ -1,16 +1,21 @@
 <template>
-  <div>
-    <h3>Person Detail</h3>
-    <p>{{ person.name }}</p>
+  <div class="p-8">
+    <person-detail :person="person" :seat="seat"></person-detail>
   </div>
 </template>
 <script>
-// import PersonCard from "../../components/person/PersonCard.vue";
+import PersonDetail from "../../components/person/PersonDetail.vue";
 export default {
-//   components: { PersonCard },
-  props: ["id", "person"],
+  components: { PersonDetail },
+  props: ["id"],
+  data() {
+    return {
+      person: null,
+      seat: null,
+    };
+  },
   created() {
-    this.findPersonById()
+    this.findPersonById();
   },
   methods: {
     findPersonById() {
@@ -20,6 +25,17 @@ export default {
         })
         .then((response) => {
           this.person = response;
+          this.findSeat();
+        });
+    },
+    findSeat() {
+      this.$store
+        .dispatch("findSeatByCode", {
+          federalSeatCode: this.person.federalseatcode,
+          stateSeatCode: this.person.stateseatcode,
+        })
+        .then((response) => {
+          this.seat = response;
         });
     },
   },
