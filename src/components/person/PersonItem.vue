@@ -1,7 +1,7 @@
 <template>
   <tr @click="gotToPersonDetails()">
     <th scope="row">{{ formatSeatCode() }}</th>
-    <td>{{ person.status }}</td>
+    <td class="text-left">{{ person.status }}</td>
     <td class="text-left">{{ person.name }}</td>
     <td class="text-left">{{ person.email }}</td>
     <td class="text-center">

@@ -8,11 +8,20 @@
         v-model.trim="searchQuery"
       />
     </form>
-    <table class="w-4/5 mx-auto  mt-16 person-list-viewgroup table table-hover">
+    <table class="w-4/5 mx-auto mt-16 person-list-viewgroup table table-hover">
       <thead>
         <tr>
-          <th scope="col" class="col-1">Seat</th>
-          <th scope="col" class="col-1">Status</th>
+          <th scope="col" class="col-1" @click="onSort(getSeatColumn())">
+            Seat
+            <span v-if="sortType == 'ASC' && sortColumn == getSeatColumn()"
+              >🔺</span
+            >
+            <span
+              v-else-if="sortType == 'DESC' && sortColumn == getSeatColumn()"
+              >🔻</span
+            >
+          </th>
+          <th scope="col" class="col-1 text-left">Status</th>
           <th
             scope="col"
             class="col-3 text-left select-none"
@@ -101,6 +110,9 @@ export default {
       }
 
       this.sortColumn = column;
+    },
+    getSeatColumn() {
+      return "federalseatcode";
     },
   },
 };

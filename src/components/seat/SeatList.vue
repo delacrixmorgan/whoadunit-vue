@@ -25,18 +25,25 @@
               >🔻</span
             >
           </th>
-          <th scope="col" class="col-1">Level</th>
+          <th scope="col" class="col-auto text-left select-none" @click="onSort('state')">
+            State
+            <span v-if="sortType == 'ASC' && sortColumn == 'state'">🔺</span>
+            <span v-else-if="sortType == 'DESC' && sortColumn == 'state'"
+              >🔻</span
+            >
+            </th>
           <th
             scope="col"
             class="col-auto text-left select-none"
             @click="onSort('name')"
           >
-            Name
+            Seat Name
             <span v-if="sortType == 'ASC' && sortColumn == 'name'">🔺</span>
             <span v-else-if="sortType == 'DESC' && sortColumn == 'name'"
               >🔻</span
             >
           </th>
+          <th scope="col" class="col-auto text-left select-none">Name</th>
         </tr>
       </thead>
       <tbody>
@@ -47,6 +54,7 @@
           :level="seat.level"
           :name="seat.name"
           :state="seat.state"
+          :person="seat.person"
         />
       </tbody>
     </table>
@@ -62,6 +70,8 @@ export default {
   props: ["type"],
   data() {
     return {
+      seats: null,
+      persons: null,
       isLoading: false,
       searchQuery: "",
       seatCode: "",
@@ -70,15 +80,44 @@ export default {
       sortType: "",
     };
   },
+  created() {
+    if (this.type == "adun") {
+      this.getterEndpoint = "adunSeats";
+    }
+    if (this.type == "mp") {
+      this.getterEndpoint = "mpSeats";
+    }
+    this.seats = this.$store.getters[this.getterEndpoint];
+    this.persons = this.$store.getters["persons"];
+
+    for (let index = 0; index < this.seats.length; index++) {
+      const seat = this.seats[index];
+      const federalSeatCode = seat.federalseatcode;
+      const stateSeatCode = seat.stateseatcode;
+
+      const filteredPerson = this.persons.filter(
+        (person) =>
+          person.federalseatcode == federalSeatCode &&
+          person.stateseatcode == stateSeatCode
+      );
+
+      if (filteredPerson.length > 0) {
+        seat.person = filteredPerson[0];
+      } else {
+        seat.person = "";
+      }
+    }
+  },
   computed: {
     filteredSeats() {
-      const seats = this.$store.getters[this.getterEndpoint];
       const query = this.searchQuery.toLowerCase();
-      const filteredSeats = seats.filter(
+      const filteredSeats = this.seats.filter(
         (seat) =>
           seat.name.toLowerCase().includes(query) ||
           this.getSeatCode(seat).toLowerCase().includes(query) ||
-          seat.level.toLowerCase().includes(query)
+          seat.level.toLowerCase().includes(query) ||
+          seat.state.toLowerCase().includes(query) ||
+          seat.person.name.toLowerCase().includes(query)
       );
 
       if (this.sortType != "") {
@@ -103,18 +142,10 @@ export default {
       return filteredSeats;
     },
   },
-  created() {
-    if (this.type == "adun") {
-      this.getterEndpoint = "adunSeats";
-    }
-    if (this.type == "mp") {
-      this.getterEndpoint = "mpSeats";
-    }
-  },
   methods: {
     getSeatCode(seat) {
       if (this.type == "adun") {
-        return seat.stateseatcode;
+        return seat.federalseatcode + "/" +seat.stateseatcode;
       }
       if (this.type == "mp") {
         return seat.federalseatcode;

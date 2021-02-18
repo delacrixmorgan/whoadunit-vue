@@ -13,7 +13,8 @@ export default {
             return state.seats.filter(
                 (seat) =>
                     seat.federalseatcode != null &&
-                    seat.stateseatcode == null
+                    seat.stateseatcode == null &&
+                    seat.state == "Selangor"
             );
         },
         adunSeats(state) {
@@ -36,8 +37,5 @@ export default {
 
             return filteredSeat[0];
         }
-    },
-    mutations: {
-
     }
 }
