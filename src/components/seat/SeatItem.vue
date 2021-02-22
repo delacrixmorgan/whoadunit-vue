@@ -24,7 +24,7 @@ export default {
       this.$router.push({
         path: `${levelPath}/${this.state.toLowerCase()}/${this.code}`,
       });
-    }
+    },
   },
 };
 </script>

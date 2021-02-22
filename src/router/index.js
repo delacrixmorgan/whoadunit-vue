@@ -51,13 +51,13 @@ const routes = [
     props: true
   },
   {
-    path: '/adun/:state/:code',
+    path: '/adun/:state/:federalCode/:stateCode',
     name: 'ADUNDetail',
     component: SeatDetail,
     props: true
   },
   {
-    path: '/mp/:state/:code',
+    path: '/mp/:state/:federalCode',
     name: 'MPDetail',
     component: SeatDetail,
     props: true
