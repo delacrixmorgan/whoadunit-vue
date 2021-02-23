@@ -36,8 +36,8 @@ export default {
             return filteredPerson[0];
         },
         findPersonBySeat(context, payload) {
-            const federalSeatCode = payload.seat.federalseatcode;
-            const stateSeatCode = payload.seat.stateseatcode;
+            const federalSeatCode = payload.federalSeatCode;
+            const stateSeatCode = payload.stateSeatCode;
 
             const filteredPerson = context.state.persons.filter(
                 (person) =>

@@ -1,5 +1,5 @@
 <template>
-  <div class="p-8">
+  <div class="p-8" v-if="person != null && seat != null">
     <person-detail :person="person" :seat="seat"></person-detail>
   </div>
 </template>

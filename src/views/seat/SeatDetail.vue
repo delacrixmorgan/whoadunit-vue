@@ -1,10 +1,12 @@
 <template>
-  <div class="p-8">
+  <div class="p-8" v-if="person != null && seat != null">
     <person-detail :person="person" :seat="seat"></person-detail>
   </div>
 </template>
 <script>
+import PersonDetail from "../../components/person/PersonDetail.vue";
 export default {
+  components: { PersonDetail },
   props: ["state", "federalCode", "stateCode"],
   data() {
     return {
@@ -13,8 +15,8 @@ export default {
     };
   },
   created() {
-    // this.findSeat();
-    // this.findPersonBySeat();
+    this.findSeat();
+    this.findPersonBySeat();
   },
   methods: {
     findSeat() {
@@ -24,7 +26,6 @@ export default {
           stateSeatCode: this.stateCode,
         })
         .then((response) => {
-          console.log(response);
           this.seat = response;
         });
     },
@@ -35,7 +36,6 @@ export default {
           stateSeatCode: this.stateCode,
         })
         .then((response) => {
-          console.log(response);
           this.person = response;
         });
     },

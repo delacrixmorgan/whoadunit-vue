@@ -116,7 +116,8 @@ export default {
     setPerson(seat) {
       this.$store
         .dispatch("findPersonBySeat", {
-          seat: seat,
+          federalSeatCode: seat.federalseatcode,
+          stateSeatCode: seat.stateseatcode,
         })
         .then((response) => {
           this.person = response;
