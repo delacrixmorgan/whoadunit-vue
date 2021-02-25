@@ -2,7 +2,7 @@
   <div class="py-6 flex flex-col justify-center sm:py-12">
     <div class="relative py-3 sm:max-w-xl sm:mx-auto">
       <div
-        class="absolute inset-0 bg-gradient-to-r from-purple-400 to-purple-500 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"
+        class="absolute inset-0 bg-gradient-to-r from-cyan-400 to-light-blue-500 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"
       ></div>
       <div
         class="relative px-4 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20"
@@ -16,7 +16,7 @@
               class="py-8 text-base leading-6 space-y-4 text-gray-700 sm:text-lg sm:leading-7"
             >
               <p>
-                Who<span class="font-semibold">ADUN</span> helps you to find
+                Who<span class="font-semibold">ADUN</span>It finds
                 your ADUN and Members of Parliament contact details for you to
                 reach out!
               </p>
@@ -78,11 +78,12 @@
                 <span
                   ><a
                     href="https://cilisos.my/101-writing-a-letter-to-your-mp-and-how-it-can-save-malaysia/"
+                    target="_blank"
                     class="underline"
                     >Cilisos
                   </a></span
                 >
-                that talks explains it all, also inspired me to build this
+                that explains it all, also inspired me to build this
                 website.
               </p>
             </div>

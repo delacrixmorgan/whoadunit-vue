@@ -46,53 +46,6 @@
           >
             <button @click="gotToPersonDetails()">View Details</button>
           </a>
-
-          <!-- <button
-            class="w-1/2 flex items-center justify-center rounded-full bg-purple-50 text-purple-700"
-            type="button"
-          >
-            Add to bag
-          </button>
-
-          <a
-            class="flex-none flex mr-2 items-center justify-center w-9 h-9 rounded-full bg-purple-50 text-purple-700 hover:text-purple-50 hover:bg-purple-600"
-            type="button"
-            href="https://www.google.com"
-          >
-            <svg width="20" height="20" fill="currentColor">
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
-              />
-            </svg>
-          </a>
-          <a
-            class="flex-none flex mr-2 items-center justify-center w-9 h-9 rounded-full bg-purple-50 text-purple-700 hover:text-purple-50 hover:bg-purple-600"
-            type="button"
-            href="https://www.google.com"
-          >
-            <svg width="20" height="20" fill="currentColor">
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
-              />
-            </svg>
-          </a>
-          <a
-            class="flex-none flex mr-2 items-center justify-center w-9 h-9 rounded-full bg-purple-50 text-purple-700 hover:text-purple-50 hover:bg-purple-600"
-            type="button"
-            href="https://www.google.com"
-          >
-            <svg width="20" height="20" fill="currentColor">
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
-              />
-            </svg>
-          </a> -->
         </div>
       </div>
     </div>
@@ -129,5 +82,4 @@ export default {
   },
 };
 </script>
-<style scoped>
-</style>
+<style scoped></style>
