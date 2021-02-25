@@ -1,0 +1,503 @@
+[
+    {
+        "id": "f98e9151-4adf-5c25-e429-b794ebdc2b02",
+        "federalseatcode": "P92",
+        "stateseatcode": "N1",
+        "status": "Incumbent",
+        "name": "Rizam Ismail",
+        "email": "rizam@selangor.gov.my",
+        "facebook": "https://www.facebook.com/rizamismail",
+        "twitter": "https://twitter.com/rizamismail2"
+    },
+    {
+        "id": "386fa194-e605-ff0c-9ea6-9deb1e8def74",
+        "federalseatcode": "P92",
+        "stateseatcode": "N2",
+        "status": "Incumbent",
+        "name": "Ahmad Mustain Othman",
+        "email": "pejabatdunn02@gmail.com"
+    },
+    {
+        "id": "5b50875a-8cbd-1791-a572-9b7b6e1f0a1b",
+        "federalseatcode": "P93",
+        "stateseatcode": "N3",
+        "status": "Incumbent",
+        "name": "Mohd Imran Tamrin",
+        "email": "imran.tamrin@selangor.gov.my"
+    },
+    {
+        "id": "6e701b90-9db7-665c-6450-5738dbc56365",
+        "federalseatcode": "P93",
+        "stateseatcode": "N4",
+        "status": "Incumbent",
+        "name": "Ng Suee Lim",
+        "email": "ngsueelim@selangor.gov.my",
+        "facebook": "www.facebook.com/DAPSekinchan",
+        "twitter": "https://twitter.com/ngsueelim"
+    },
+    {
+        "id": "95accda0-47bc-0260-3288-db0b6c3d0a53",
+        "federalseatcode": "P94",
+        "stateseatcode": "N5",
+        "status": "Incumbent",
+        "name": "Rosni Sohar",
+        "email": "rosni.sohar@selangor.gov.my",
+        "facebook": "https://www.facebook.com/DatukRosni"
+    },
+    {
+        "id": "3bf528e1-ec3a-52b8-3311-f43a89010e22",
+        "federalseatcode": "P94",
+        "stateseatcode": "N6",
+        "status": "Incumbent",
+        "name": "Lee Kee Hiong",
+        "email": "leekeehiong@gmail.com",
+        "facebook": "www.facebook.com/LeeKeeHiong1",
+        "twitter": "https://twitter.com/KeeHiong"
+    },
+    {
+        "id": "695dbd25-90a6-3d0f-d9b6-ff289b035538",
+        "federalseatcode": "P94",
+        "stateseatcode": "N7",
+        "status": "Incumbent",
+        "name": "Harumaini Omar",
+        "email": "harumaini2007@gmail.com"
+    },
+    {
+        "id": "0bb7ebfe-b4d9-a90b-b877-7cf1e237e642",
+        "federalseatcode": "P95",
+        "stateseatcode": "N8",
+        "status": "Incumbent",
+        "name": "Mohd Shamsuddin Lias",
+        "email": "hjshamsudin@selangor.gov.my"
+    },
+    {
+        "id": "60db7170-be70-966a-55bc-dc86f0b8522a",
+        "federalseatcode": "P95",
+        "stateseatcode": "N9",
+        "status": "Incumbent",
+        "name": "Rozana Zainal Abidin",
+        "email": "rozana@selangor.gov.my",
+        "facebook": "https://www.facebook.com/YBPermatang"
+    },
+    {
+        "id": "a53c0ff4-f946-8562-eea7-580fb018c731",
+        "federalseatcode": "P96",
+        "stateseatcode": "N10",
+        "status": "Incumbent",
+        "name": "Juwairiya Zulkifli",
+        "email": "pkrbukitmelawati@gmail.com",
+        "facebook": "https://www.facebook.com/juwairiya.zulkifli/",
+        "twitter": "https://twitter.com/juezulkifli"
+    },
+    {
+        "id": "bb87e09f-67ff-5600-a1e0-3f3f50bb26a6",
+        "federalseatcode": "P96",
+        "stateseatcode": "N11",
+        "status": "Incumbent",
+        "name": "Idris Ahmad",
+        "email": "dridrisog@gmail.com"
+    },
+    {
+        "id": "2280455c-adb2-4f54-5e32-279f1de4455d",
+        "federalseatcode": "P96",
+        "stateseatcode": "N12",
+        "status": "Incumbent",
+        "name": "Mohd Shaid Rosli",
+        "email": "shaid@selangor.gov.my"
+    },
+    {
+        "id": "e09433ee-44a4-2f30-e69e-f2ca8266d5bc",
+        "federalseatcode": "P97",
+        "stateseatcode": "N13",
+        "status": "Incumbent",
+        "name": "Sallehudin Amiruddin",
+        "email": "mamatsalleh117@gmail.com"
+    },
+    {
+        "id": "96d7a893-5415-f839-92af-a8d0c335fa5b",
+        "federalseatcode": "P97",
+        "stateseatcode": "N14",
+        "status": "Incumbent",
+        "name": "Chua Wei Kiat",
+        "email": "khidmatrawang@gmail.com",
+        "facebook": "https://www.facebook.com/chuaweikiat.page/",
+        "twitter": "https://twitter.com/chuaweikiat"
+    },
+    {
+        "id": "7ef9e197-0d54-817f-ec47-59b98ec7b6f9",
+        "federalseatcode": "P97",
+        "stateseatcode": "N15",
+        "status": "Incumbent",
+        "name": "Mohd. Sany Hamzan",
+        "email": "n15tmntempler@gmail.com",
+        "facebook": "https://www.facebook.com/Pusat-Khidmat-Masyarakat-Taman-Templer-YB-Sany-Hamzan-2057234537928241/"
+    },
+    {
+        "id": "aa6ce945-2566-a355-6066-13fe8fe7ea91",
+        "federalseatcode": "P98",
+        "stateseatcode": "N16",
+        "status": "Incumbent",
+        "name": "Amirudin Shari",
+        "email": "amirudinshari@selangor.gov.my",
+        "facebook": "https://www.facebook.com/amirudinbinshari",
+        "twitter": "https://twitter.com/AmirudinShari"
+    },
+    {
+        "id": "2b2353d3-cd30-16e0-2bf6-35390c8e6c3d",
+        "federalseatcode": "P98",
+        "stateseatcode": "N17",
+        "status": "Incumbent",
+        "name": "Hilman Idham",
+        "email": "hilman.idham@gmail.com"
+    },
+    {
+        "id": "c27a7276-5726-77ae-e275-9ff61f7f9e6f",
+        "federalseatcode": "P98",
+        "stateseatcode": "N18",
+        "status": "Incumbent",
+        "name": "Saari Sungib",
+        "email": "saarisungib@selangor.gov.my",
+        "facebook": "https://www.facebook.com/SaariSungibOfficial",
+        "twitter": "https://twitter.com/SaariSungib"
+    },
+    {
+        "id": "f594c048-326d-b900-4c69-76746a8cad59",
+        "federalseatcode": "P99",
+        "stateseatcode": "N19",
+        "status": "Incumbent",
+        "name": "Mohamed Azmin Ali",
+        "email": "azminali@selangor.gov.my",
+        "facebook": "https://www.facebook.com/MohamedAzminAli",
+        "twitter": "https://twitter.com/AzminAli"
+    },
+    {
+        "id": "97ac07e6-8634-2356-2148-5d45d565bc03",
+        "federalseatcode": "P99",
+        "stateseatcode": "N20",
+        "status": "Incumbent",
+        "name": "Haniza Mohamed Talha",
+        "email": "adunlembahjayan20@gmail.com",
+        "facebook": "https://www.facebook.com/hanizatalha",
+        "twitter": "https://twitter.com/hanizat"
+    },
+    {
+        "id": "a4d5d3fd-ecbd-edba-685b-35b424c5e0ef",
+        "federalseatcode": "P100",
+        "stateseatcode": "N21",
+        "status": "Incumbent",
+        "name": "Izham Hashim",
+        "email": "izham@selangor.gov.my"
+    },
+    {
+        "id": "ef11c55d-b09b-37c3-1675-efabe58de28a",
+        "federalseatcode": "P100",
+        "stateseatcode": "N22",
+        "status": "Incumbent",
+        "name": "Lai Wai Chong",
+        "email": "ph.teratai@gmail.com",
+        "facebook": "https://www.facebook.com/dap.bryanlai"
+    },
+    {
+        "id": "3964b904-ce97-48d1-5b1b-ed995d234e53",
+        "federalseatcode": "P101",
+        "stateseatcode": "N23",
+        "status": "Incumbent",
+        "name": "Edry Faizal Eddy Yusof",
+        "email": "adn.dusuntua@gmail.com",
+        "facebook": "https://www.facebook.com/edry.faizal/",
+        "twitter": "https://twitter.com/edryfaizal"
+    },
+    {
+        "id": "382b74c4-d466-2e4a-1ca3-51f756cc8641",
+        "federalseatcode": "P101",
+        "stateseatcode": "N24",
+        "status": "Incumbent",
+        "name": "Zakaria Hanafi",
+        "email": "yb.zakariahanafi61@gmail.com"
+    },
+    {
+        "id": "80166096-41e3-5a19-af45-06a97b10412f",
+        "federalseatcode": "P102",
+        "stateseatcode": "N25",
+        "status": "Incumbent",
+        "name": "Hee Loy Sian",
+        "email": "heels70@gmail.com"
+    },
+    {
+        "id": "290de5dc-0b5c-e6d3-0341-e4ee93688b2f",
+        "federalseatcode": "P102",
+        "stateseatcode": "N26",
+        "status": "Incumbent",
+        "name": "Mazwan Johar",
+        "email": "mazwan@selangor.gov.my"
+    },
+    {
+        "id": "6e3c2b56-6f6b-55c3-75ba-f533278e682b",
+        "federalseatcode": "P102",
+        "stateseatcode": "N27",
+        "status": "Incumbent",
+        "name": "Wong Siew Ki",
+        "email": "wongsiewki@gmail.com",
+        "facebook": "https://www.facebook.com/wongsiewki"
+    },
+    {
+        "id": "46b247d4-ddb5-d613-b931-dfd2ad46fed2",
+        "federalseatcode": "P103",
+        "stateseatcode": "N28",
+        "status": "Incumbent",
+        "name": "Ean Yong Hian Wah",
+        "email": "eanyong@selangor.gov.my",
+        "facebook": "www.facebook.com/Ean.Yong.for.Seri.Kemb",
+        "twitter": "https://twitter.com/eanyonghianwah"
+    },
+    {
+        "id": "53289d9d-6a0b-2a9d-1e1a-70294f91631a",
+        "federalseatcode": "P103",
+        "stateseatcode": "N29",
+        "status": "Incumbent",
+        "name": "Siti Mariah Mahmud",
+        "email": "mariah.selangor29@gmail.com"
+    },
+    {
+        "id": "bda42179-5be5-7da7-12ae-019e8aec48f0",
+        "federalseatcode": "P104",
+        "stateseatcode": "N30",
+        "status": "Incumbent",
+        "name": "Ng Sze Han",
+        "email": "ngszehan@selangor.gov.my",
+        "facebook": "https://www.facebook.com/NgSzeHan.dap/",
+        "twitter": "https://twitter.com/ngszehan"
+    },
+    {
+        "id": "db3ae0e2-d926-c752-f0d9-fc970964667b",
+        "federalseatcode": "P104",
+        "stateseatcode": "N31",
+        "status": "Incumbent",
+        "name": "Michelle Ng Mei Sze",
+        "email": "michelle.dunsubangjaya@gmail.com",
+        "facebook": "https://www.facebook.com/michelle.ngmeisze",
+        "twitter": "https://twitter.com/michellengms"
+    },
+    {
+        "id": "68b72a85-e8b3-4f8a-b6e5-f41d43357ed6",
+        "federalseatcode": "P105",
+        "stateseatcode": "N32",
+        "status": "Incumbent",
+        "name": "Halimey Abu Bakar",
+        "email": "serisetia32@gmail.com",
+        "facebook": "https://www.facebook.com/halimey.a.bakar"
+    },
+    {
+        "id": "ff5872d0-d7ce-6fd0-52dd-d1dface75b2a",
+        "federalseatcode": "P105",
+        "stateseatcode": "N33",
+        "status": "Incumbent",
+        "name": "Syamsul Firdaus Mohamed Supri",
+        "email": "syamsulfirdaus@selangor.gov.my",
+        "facebook": "https://www.facebook.com/syamsul.firdaus.7"
+    },
+    {
+        "id": "5cb0d3d1-d274-6d5f-8e41-56605a3950ff",
+        "federalseatcode": "P105",
+        "stateseatcode": "N34",
+        "status": "Incumbent",
+        "name": "Rajiv Rishyakaran",
+        "email": "rajiv@selangor.gov.my",
+        "facebook": "https://www.facebook.com/rajiv4malaysia",
+        "twitter": "https://twitter.com/rajiv4malaysia"
+    },
+    {
+        "id": "8204c5b3-762f-f190-0262-830e5a621f62",
+        "federalseatcode": "P106",
+        "stateseatcode": "N35",
+        "status": "Incumbent",
+        "name": "Lim Yi Wei",
+        "email": "limyiwei@selangor.gov.my",
+        "facebook": "https://www.facebook.com/LimYiWei.MY",
+        "twitter": "https://twitter.com/LimYiWei4MY"
+    },
+    {
+        "id": "dd7d3bd5-2960-8e58-db9f-102af5f71d49",
+        "federalseatcode": "P106",
+        "stateseatcode": "N36",
+        "status": "Incumbent",
+        "name": "Jamaliah Jamaluddin",
+        "email": "jamaliah.bu@selangor.gov.my",
+        "facebook": "https://www.facebook.com/aaliah.jamal"
+    },
+    {
+        "id": "26e8f0ac-0156-31b0-63b4-1bf7a9c10597",
+        "federalseatcode": "P106",
+        "stateseatcode": "N37",
+        "status": "Incumbent",
+        "name": "Elizabeth Wong Keat Ping",
+        "email": "bukitlanjan2008@gmail.com",
+        "facebook": "https://www.facebook.com/ElizabethWong.Keadilan/"
+    },
+    {
+        "id": "bb211e76-b7ee-845f-1126-d6c8732d2063",
+        "federalseatcode": "P107",
+        "stateseatcode": "N38",
+        "status": "Incumbent",
+        "name": "Mohd. Khairuddin Othman",
+        "email": "khairuddin.othman@selangor.gov.my",
+        "facebook": "https://www.facebook.com/mk.othman.1"
+    },
+    {
+        "id": "bacbf2ee-2887-0369-cbd8-33d9d6cbe5c3",
+        "federalseatcode": "P107",
+        "stateseatcode": "N39",
+        "status": "Incumbent",
+        "name": "Shatiri Mansor",
+        "email": "shatiri@selangor.gov.my",
+        "facebook": "https://www.facebook.com/shatiri"
+    },
+    {
+        "id": "c3b6190c-6dd8-7b2f-2b87-05e65a12d4ef",
+        "federalseatcode": "P108",
+        "stateseatcode": "N40",
+        "status": "Incumbent",
+        "name": "Najwan Halimi",
+        "email": "adun@najwanhalimi.com",
+        "facebook": "https://www.facebook.com/najwanhalimi",
+        "twitter": "https://twitter.com/najwanhalimi"
+    },
+    {
+        "id": "da1bbe22-443b-df29-a872-c63b085b8fb6",
+        "federalseatcode": "P108",
+        "stateseatcode": "N41",
+        "status": "Incumbent",
+        "name": "Rodziah Ismail",
+        "email": "rodziahismail@selangor.gov.my",
+        "facebook": "https://www.facebook.com/RodziahIsmailsPage",
+        "twitter": "https://twitter.com/Rodziah_Ismail"
+    },
+    {
+        "id": "021c23cd-93c9-189c-084b-533ea72b60b2",
+        "federalseatcode": "P109",
+        "stateseatcode": "N42",
+        "status": "Incumbent",
+        "name": "Mohd. Fakhrulrazi Mohd Mokhtar",
+        "email": "pkrdunmeru@gmail.com"
+    },
+    {
+        "id": "a217b0d1-0563-be2d-0ec2-c4808dc8c7b8",
+        "federalseatcode": "P109",
+        "stateseatcode": "N43",
+        "status": "Incumbent",
+        "name": "Dr. Daroyah Alwi",
+        "email": "daroyah@selangor.gov.my"
+    },
+    {
+        "id": "e14ec6e2-3a42-fd5d-90b3-f36a51f86b37",
+        "federalseatcode": "P109",
+        "stateseatcode": "N44",
+        "status": "Incumbent",
+        "name": "Abdul Rashid Asari",
+        "email": "pejabatdun.n44selatklang@gmail.com"
+    },
+    {
+        "id": "8c341b30-0746-cd56-c609-fe034bff0cfa",
+        "federalseatcode": "P110",
+        "stateseatcode": "N45",
+        "status": "Incumbent",
+        "name": "Teng Chiam Kim",
+        "email": "khim@selangor.gov.my",
+        "facebook": "https://www.facebook.com/tengchangkhimpage",
+        "twitter": "https://twitter.com/tengchangkhim"
+    },
+    {
+        "id": "7bfb3b31-2f43-c872-61cf-a3bf87f90cb7",
+        "federalseatcode": "P110",
+        "stateseatcode": "N46",
+        "status": "Incumbent",
+        "name": "Azmizam Zaman Huri",
+        "email": "prazmizam@gmail.com",
+        "facebook": "https://www.facebook.com/PKMN46"
+    },
+    {
+        "id": "522ab703-bde4-7de6-b351-fb90d22a30f3",
+        "federalseatcode": "P110",
+        "stateseatcode": "N47",
+        "status": "Incumbent",
+        "name": "Leong Tuck Chee",
+        "email": "adunn47pandamaran@gmail.com",
+        "facebook": "https://www.facebook.com/tonyleongtuckchee/"
+    },
+    {
+        "id": "fa80dac8-9433-b16d-61b4-5e1792264a77",
+        "federalseatcode": "P111",
+        "stateseatcode": "N48",
+        "status": "Incumbent",
+        "name": "Gunarajah George",
+        "email": "pusatkhidmatsentosa@gmail.com",
+        "facebook": "https://www.facebook.com/adunsentosa"
+    },
+    {
+        "id": "6d780a58-6302-b564-feda-7469ec7771a4",
+        "federalseatcode": "P111",
+        "stateseatcode": "N49",
+        "status": "Incumbent",
+        "name": "Zawawi Mughni",
+        "email": "dunsk2018@gmail.com",
+        "facebook": "https://www.facebook.com/N49sungaikandis/"
+    },
+    {
+        "id": "c67e6c11-495b-afac-dce7-2867d51b6b5b",
+        "federalseatcode": "P111",
+        "stateseatcode": "N50",
+        "status": "Incumbent",
+        "name": "Ganabatirau Veraman",
+        "email": "ganabatirau@gmail.com",
+        "facebook": "https://www.facebook.com/ADUN-Kota-Kemuning-188039191881333/"
+    },
+    {
+        "id": "178fbd40-72e2-5d56-69fc-bab06ed515c7",
+        "federalseatcode": "P112",
+        "stateseatcode": "N51",
+        "status": "Incumbent",
+        "name": "Dr. Ahmad Yunus Hairi",
+        "email": "dryunus@selangor.gov.my"
+    },
+    {
+        "id": "1c855c5e-962b-6483-eaa5-f8ca4e50d8b1",
+        "federalseatcode": "P112",
+        "stateseatcode": "N52",
+        "status": "Incumbent",
+        "name": "Lau Weng San",
+        "email": "lauwengsan@gmail.com"
+    },
+    {
+        "id": "eb1b67c9-bc28-56dc-a086-8fc106c91b21",
+        "federalseatcode": "P112",
+        "stateseatcode": "N53",
+        "status": "Incumbent",
+        "name": "Hasnul Baharuddin",
+        "email": "hasnul.baharuddin@selangor.gov.my"
+    },
+    {
+        "id": "a559d5b0-0085-202e-8909-4c17648cfb0a",
+        "federalseatcode": "P113",
+        "stateseatcode": "N54",
+        "status": "Incumbent",
+        "name": "Borhan Aman Shah",
+        "email": "pkmtg.sepat54@gmail.com"
+    },
+    {
+        "id": "074bb772-bf6b-06c6-b562-ef893e361ae0",
+        "federalseatcode": "P113",
+        "stateseatcode": "N55",
+        "status": "Incumbent",
+        "name": "Adhif Syan Abdullah",
+        "email": "adhifsyan.dengkil@gmail.com",
+        "facebook": "https://www.facebook.com/adhifsyan/"
+    },
+    {
+        "id": "912197c0-96e6-83e1-735b-05ab1c061ec0",
+        "federalseatcode": "P113",
+        "stateseatcode": "N56",
+        "status": "Incumbent",
+        "name": "Ronnie Liu Tian Khiew",
+        "email": "ronnieliu@selangor.gov.my"
+    }
+]
