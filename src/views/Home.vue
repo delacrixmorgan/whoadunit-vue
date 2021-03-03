@@ -1,8 +1,8 @@
 <template>
   <div>
     <landing-page></landing-page>
-    <tutorial-page></tutorial-page>
-    <div class="h-screen p-4 full grid md:grid-cols-2 sm:grid-cols-1 gap-4 mx-auto w-4/5 mt-12">
+    <tutorial-page class="w-full h-auto"></tutorial-page>
+    <div class="h-screen sm:grid-cols-1 md:grid-cols-2 lg:w-4/5 gap-4 mx-auto mt-12  p-4 full grid ">
       <seat-auto-complete-search type="mp" />
       <seat-auto-complete-search type="adun" />
     </div>
