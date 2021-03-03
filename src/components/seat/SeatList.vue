@@ -1,6 +1,6 @@
 <template>
   <div>
-    <form class="w-4/5 mx-auto search-viewgroup mt-8">
+    <form class="w-full lg:w-4/5 mx-auto search-viewgroup mt-8">
       <input
         class="w-full focus:outline-none focus:ring focus:border-blue-300 text-sm text-black placeholder-gray-500 border border-gray-200 rounded-md py-3 pl-5"
         type="text"
@@ -8,7 +8,7 @@
         v-model.trim="searchQuery"
       />
     </form>
-    <table class="w-4/5 mx-auto mt-16 table table-hover">
+    <table class="w-full lg:w-4/5 mx-auto mt-16 table table-hover">
       <thead>
         <tr>
           <th
