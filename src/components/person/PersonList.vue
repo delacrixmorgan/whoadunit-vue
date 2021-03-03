@@ -1,6 +1,6 @@
 <template>
   <div>
-    <form class="w-full lg:w-4/5 mx-auto search-viewgroup mt-8">
+    <form class="lg:w-4/5 mx-auto search-viewgroup mt-8">
       <input
         class="w-full focus:outline-none focus:ring focus:border-blue-300 text-sm text-black placeholder-gray-500 border border-gray-200 rounded-md py-3 pl-5"
         type="text"
@@ -8,7 +8,7 @@
         v-model.trim="searchQuery"
       />
     </form>
-    <table class="w-full lg:w-4/5 mx-auto mt-16 person-list-viewgroup table table-hover">
+    <table class="lg:w-4/5 mx-auto mt-16 person-list-viewgroup table table-hover">
       <thead>
         <tr>
           <th scope="col" class="col-1" @click="onSort(getSeatColumn())">

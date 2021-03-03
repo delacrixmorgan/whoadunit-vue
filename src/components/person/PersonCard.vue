@@ -41,7 +41,7 @@
         </div>
         <div class="flex items-center">
           <a
-            class="flex-none flex items-center py-2 px-4 justify-center bg-purple-50 text-purple-700 hover:text-purple-50 hover:bg-purple-600 rounded-full"
+            class="flex-none flex items-center py-2 px-4 justify-center bg-purple-100 text-purple-700 hover:text-purple-50 hover:bg-purple-600 rounded-full"
             type="button"
           >
             <button @click="gotToPersonDetails()">View Details</button>

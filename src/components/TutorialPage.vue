@@ -1,7 +1,10 @@
 <template>
-  <div class="h-screen w-4/5 mx-auto space-x-4 grid grid-cols-4">
-    <div class="col-span-2 text-left my-auto">
-      <div class="p-8 flex space-x-4">
+  <div class="row">
+    <div class="mt-4 2xl:col-span-2 ">
+      <img class="mx-auto shadow-md" src="@/assets/tutorial_page_cropped.png" />
+    </div>
+    <div class="text-left mt-2 my-auto md:4/5 lg:w-3/5 mx-auto">
+      <div class="py-4 px-8 flex space-x-4">
         <div
           class="rounded-full bg-purple-600 h-24 w-24 text-3xl text-white font-semibold"
         >
@@ -22,7 +25,7 @@
           </p>
         </div>
       </div>
-      <div class="p-8 flex space-x-4">
+      <div class="py-4 px-8 flex space-x-4">
         <div
           class="rounded-full bg-purple-600 h-24 w-24 text-3xl text-white font-semibold"
         >
@@ -41,7 +44,7 @@
           </p>
         </div>
       </div>
-      <div class="p-8 flex space-x-4">
+      <div class="py-4 px-8 flex space-x-4">
         <div
           class="rounded-full bg-purple-600 h-24 w-24 text-3xl text-white font-semibold"
         >
@@ -60,15 +63,12 @@
             that gives you a chance to get to know the latest developments in
             your community.<br /><br />If you feel strongly about an issue, it's
             an opening for you to express what you feel and get to know them
-            your representatives better too. So, they can serve the community better.<br /><br />You are their
-            constituents after all,
+            your representatives better too. So, they can serve the community
+            better.<br /><br />You are their constituents after all,
             <span class="font-black">be respective and constructive</span>.
           </p>
         </div>
       </div>
-    </div>
-    <div class="col-span-2 my-auto">
-      <img class="w-full shadow-md" src="@/assets/tutorial_page_cropped.png" />
     </div>
   </div>
 </template>
