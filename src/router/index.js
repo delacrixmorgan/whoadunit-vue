@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import AltHome from '../views/AltHome.vue'
 import About from '../views/About.vue'
 import SeatList from '../views/seat/SeatList'
 import SeatDetail from '../views/seat/SeatDetail'
@@ -14,6 +15,11 @@ const routes = [
     path: '/',
     name: 'Home',
     component: Home
+  },
+  {
+    path: '/alt',
+    name: 'AltHome',
+    component: AltHome
   },
   {
     path: '/about',

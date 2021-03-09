@@ -1,14 +1,10 @@
 <template>
   <div>
-    <form class="lg:w-4/5 mx-auto search-viewgroup mt-8">
-      <input
-        class="w-full focus:outline-none focus:ring focus:border-blue-300 text-sm text-black placeholder-gray-500 border border-gray-200 rounded-md py-3 pl-5"
-        type="text"
-        placeholder="Search..."
-        v-model.trim="searchQuery"
-      />
-    </form>
-    <table class="lg:w-4/5 mx-auto mt-16 table table-hover">
+    <bottom-search-bar
+      @search-query="setQuery"
+      @filter-type="setFilter"
+    ></bottom-search-bar>
+    <table class="mt-8 table table-hover">
       <thead>
         <tr>
           <th
@@ -25,13 +21,17 @@
               >🔻</span
             >
           </th>
-          <th scope="col" class="col-auto text-left select-none" @click="onSort('state')">
+          <th
+            scope="col"
+            class="col-auto text-left select-none"
+            @click="onSort('state')"
+          >
             State
             <span v-if="sortType == 'ASC' && sortColumn == 'state'">🔺</span>
             <span v-else-if="sortType == 'DESC' && sortColumn == 'state'"
               >🔻</span
             >
-            </th>
+          </th>
           <th
             scope="col"
             class="col-auto text-left select-none"
@@ -62,10 +62,12 @@
 </template>
 <script>
 import SeatItem from "@/components/seat/SeatItem";
+import BottomSearchBar from "@/components/search/BottomSearchBar";
 
 export default {
   components: {
     SeatItem,
+    BottomSearchBar,
   },
   props: ["type"],
   data() {
@@ -114,7 +116,9 @@ export default {
       const filteredSeats = this.seats.filter(
         (seat) =>
           seat.name.toLowerCase().includes(query) ||
-          this.getSeatCode(seat).toLowerCase().includes(query) ||
+          this.getSeatCode(seat)
+            .toLowerCase()
+            .includes(query) ||
           seat.level.toLowerCase().includes(query) ||
           seat.state.toLowerCase().includes(query) ||
           seat.person.name.toLowerCase().includes(query)
@@ -143,9 +147,26 @@ export default {
     },
   },
   methods: {
+    setQuery(query) {
+      this.searchQuery = query;
+      console.log(query)
+    },
+    setFilter(filters){
+      console.log(filters)
+
+      // if(filters.includes("mp")){
+      //   this.type = "mp"
+      //   this.getterEndpoint = "mpSeats";
+        
+      // }
+      // if(filters.includes("adun")){
+      //   this.type = "adun"
+      //   this.getterEndpoint = "adunSeats";
+      // }
+    },
     getSeatCode(seat) {
       if (this.type == "adun") {
-        return seat.federalseatcode + "/" +seat.stateseatcode;
+        return seat.federalseatcode + "/" + seat.stateseatcode;
       }
       if (this.type == "mp") {
         return seat.federalseatcode;
