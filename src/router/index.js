@@ -27,16 +27,9 @@ const routes = [
     props: true
   },
   {
-    path: '/adun',
-    name: 'AdunList',
-    component: SeatList,
-    props: true
-  },
-  {
-    path: '/mp',
-    name: 'MpList',
-    component: SeatList,
-    props: true
+    path: '/seats',
+    name: 'Seats',
+    component: SeatList
   },
   {
     path: '/adun/:state/',

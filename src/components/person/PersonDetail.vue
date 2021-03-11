@@ -1,5 +1,5 @@
 <template>
-  <div class="w-4/5 mx-auto flex space-x-4">
+  <div class="lg:w-4/5 mx-auto flex space-x-4">
     <div>
       <img
         class="object-cover h-96 rounded-xl shadow-md"
@@ -7,7 +7,7 @@
       />
     </div>
 
-    <div class="p-8 text-left space-y">
+    <div class="p-4 text-left space-y">
       <p class="text-lg text-black font-semibold mb-1">
         {{ person.name }}
       </p>

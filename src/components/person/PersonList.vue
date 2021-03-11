@@ -8,20 +8,11 @@
         v-model.trim="searchQuery"
       />
     </form>
-    <table class="lg:w-4/5 mx-auto mt-16 person-list-viewgroup table table-hover">
+    <table
+      class="mx-auto mt-16 table table-hover"
+    >
       <thead>
         <tr>
-          <th scope="col" class="col-1" @click="onSort(getSeatColumn())">
-            Seat
-            <span v-if="sortType == 'ASC' && sortColumn == getSeatColumn()"
-              >🔺</span
-            >
-            <span
-              v-else-if="sortType == 'DESC' && sortColumn == getSeatColumn()"
-              >🔻</span
-            >
-          </th>
-          <th scope="col" class="col-1 text-left">Status</th>
           <th
             scope="col"
             class="col-3 text-left select-none"
@@ -33,9 +24,10 @@
               >🔻</span
             >
           </th>
-          <th scope="col" class="col-1 text-left">Email</th>
-          <th scope="col" class="col-1">Facebook</th>
-          <th scope="col" class="col-1">Twitter</th>
+          <th scope="col" class="col-auto text-left">Status</th>
+          <th scope="col" class="col-auto">Email</th>
+          <th scope="col" class="col-auto">Facebook</th>
+          <th scope="col" class="col-auto">Twitter</th>
         </tr>
       </thead>
       <tbody>
