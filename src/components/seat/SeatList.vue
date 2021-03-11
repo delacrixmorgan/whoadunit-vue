@@ -5,7 +5,7 @@
       @filter-type="setFilter"
     ></bottom-search-bar>
 
-    <table class="mt-8 table table-hover">
+    <table class="mt-8 table table-hover" v-show="filteredSeats.length > 0">
       <thead>
         <tr>
           <th scope="col" class="col-auto text-left select-none">
@@ -56,6 +56,11 @@
         <seat-item v-for="seat in filteredSeats" :key="seat.id" :seat="seat" />
       </tbody>
     </table>
+    <div class="mt-8" v-show="filteredSeats.length == 0">
+      <h1 class="align-middle">
+        No results found
+      </h1>
+    </div>
   </div>
 </template>
 <script>
@@ -72,7 +77,7 @@ export default {
     return {
       seats: [],
       persons: [],
-      filters: [],
+      filters: ["mp", "adun"],
       isLoading: false,
       searchQuery: "",
       seatCode: "",
@@ -139,6 +144,10 @@ export default {
           seat.person.name.toLowerCase().includes(query)
       );
 
+      if (this.filters.length == 0) {
+        filteredSeats = [];
+      }
+
       if (this.filters.length == 1) {
         if (this.filters.includes("mp")) {
           filteredSeats = filteredSeats.filter(
@@ -152,6 +161,7 @@ export default {
           );
         }
       }
+
       return filteredSeats;
     },
     getPersonBySeat(seat) {

@@ -77,8 +77,8 @@ export default {
   data() {
     return {
       searchQuery: "",
-      isMpFilterActive: false,
-      isAdunFilterActive: false,
+      isMpFilterActive: true,
+      isAdunFilterActive: true,
       isDropdownExpanded: false,
     };
   },

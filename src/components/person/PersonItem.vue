@@ -2,7 +2,7 @@
   <tr @click="gotToPersonDetails()">
     <th class="text-left select-none">{{ person.name }}</th>
     <td class="text-left select-none">{{ person.status }}</td>
-    <td class="text-center">
+    <td>
       <svg
         v-if="person.email"
         class="flex-shrink-0 h-5 w-5 text-green-500 mx-auto"
