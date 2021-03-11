@@ -4,12 +4,16 @@
       @search-query="setQuery"
       @filter-type="setFilter"
     ></bottom-search-bar>
+
     <table class="mt-8 table table-hover">
       <thead>
         <tr>
+          <th scope="col" class="col-auto text-left select-none">
+            Seat
+          </th>
           <th
             scope="col"
-            class="col-1 select-none"
+            class="col-auto text-left select-none"
             @click="onSort(getSeatColumn())"
           >
             Code
@@ -43,19 +47,13 @@
               >🔻</span
             >
           </th>
-          <th scope="col" class="col-auto text-left select-none">Name</th>
+          <th scope="col" class="col-auto text-left select-none">
+            Incumbent Name
+          </th>
         </tr>
       </thead>
       <tbody>
-        <seat-item
-          v-for="seat in filteredSeats"
-          :key="seat.id"
-          :code="getSeatCode(seat)"
-          :level="seat.level"
-          :name="seat.name"
-          :state="seat.state"
-          :person="seat.person"
-        />
+        <seat-item v-for="seat in filteredSeats" :key="seat.id" :seat="seat" />
       </tbody>
     </table>
   </div>
@@ -72,8 +70,9 @@ export default {
   props: ["type"],
   data() {
     return {
-      seats: null,
-      persons: null,
+      seats: [],
+      persons: [],
+      filters: [],
       isLoading: false,
       searchQuery: "",
       seatCode: "",
@@ -83,13 +82,7 @@ export default {
     };
   },
   created() {
-    if (this.type == "adun") {
-      this.getterEndpoint = "adunSeats";
-    }
-    if (this.type == "mp") {
-      this.getterEndpoint = "mpSeats";
-    }
-    this.seats = this.$store.getters[this.getterEndpoint];
+    this.seats = this.$store.getters["seats"];
     this.persons = this.$store.getters["persons"];
 
     for (let index = 0; index < this.seats.length; index++) {
@@ -106,23 +99,14 @@ export default {
       if (filteredPerson.length > 0) {
         seat.person = filteredPerson[0];
       } else {
-        seat.person = "";
+        seat.person = null;
       }
     }
+    this.seats = this.seats.filter((seat) => seat.person != null);
   },
   computed: {
     filteredSeats() {
-      const query = this.searchQuery.toLowerCase();
-      const filteredSeats = this.seats.filter(
-        (seat) =>
-          seat.name.toLowerCase().includes(query) ||
-          this.getSeatCode(seat)
-            .toLowerCase()
-            .includes(query) ||
-          seat.level.toLowerCase().includes(query) ||
-          seat.state.toLowerCase().includes(query) ||
-          seat.person.name.toLowerCase().includes(query)
-      );
+      const filteredSeats = this.filter(this.searchQuery.toLowerCase());
 
       if (this.sortType != "") {
         return filteredSeats.sort((a, b) => {
@@ -142,35 +126,47 @@ export default {
           return 0;
         });
       }
-
       return filteredSeats;
     },
   },
   methods: {
+    filter(query) {
+      let filteredSeats = this.seats.filter(
+        (seat) =>
+          seat.name.toLowerCase().includes(query) ||
+          seat.state.toLowerCase().includes(query) ||
+          seat.federalseatcode.toLowerCase().includes(query) ||
+          seat.person.name.toLowerCase().includes(query)
+      );
+
+      if (this.filters.length == 1) {
+        if (this.filters.includes("mp")) {
+          filteredSeats = filteredSeats.filter(
+            (seat) => seat.level.toLowerCase() == "federal"
+          );
+        }
+
+        if (this.filters.includes("adun")) {
+          filteredSeats = filteredSeats.filter(
+            (seat) => seat.level.toLowerCase() == "state"
+          );
+        }
+      }
+      return filteredSeats;
+    },
+    getPersonBySeat(seat) {
+      const filteredPerson = this.persons.filter(
+        (person) =>
+          person.federalseatcode == seat.federalSeatCode &&
+          person.stateseatcode == seat.stateSeatCode
+      );
+      return filteredPerson[0];
+    },
     setQuery(query) {
       this.searchQuery = query;
-      console.log(query)
     },
-    setFilter(filters){
-      console.log(filters)
-
-      // if(filters.includes("mp")){
-      //   this.type = "mp"
-      //   this.getterEndpoint = "mpSeats";
-        
-      // }
-      // if(filters.includes("adun")){
-      //   this.type = "adun"
-      //   this.getterEndpoint = "adunSeats";
-      // }
-    },
-    getSeatCode(seat) {
-      if (this.type == "adun") {
-        return seat.federalseatcode + "/" + seat.stateseatcode;
-      }
-      if (this.type == "mp") {
-        return seat.federalseatcode;
-      }
+    setFilter(filters) {
+      this.filters = filters;
     },
     getSeatColumn() {
       if (this.type == "adun") {
@@ -184,7 +180,6 @@ export default {
       if (column != this.sortColumn) {
         this.sortType = "";
       }
-
       if (this.sortType == "") {
         this.sortType = "ASC";
       } else if (this.sortType == "ASC") {

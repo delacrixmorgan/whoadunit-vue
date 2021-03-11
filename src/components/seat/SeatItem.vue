@@ -1,28 +1,28 @@
 <template>
   <tr @click="gotToSeatDetails()">
-    <th scope="row">{{ code }}</th>
-    <td class="text-left">{{ state }}</td>
-    <td class="text-left">{{ name }}</td>
-    <td class="text-left">{{ person.name }}</td>
+    <td class="text-left select-none">{{ seat.level }}</td>
+    <td class="text-left select-none">{{ getSeatCode() }}</td>
+    <td class="text-left select-none">{{ seat.state }}</td>
+    <td class="text-left select-none">{{ seat.name }}</td>
+    <td class="text-left select-none">{{ seat.person.name }}</td>
   </tr>
 </template>
 
 <script>
 export default {
-  props: ["name", "code", "level", "state", "seat", "person"],
+  props: ["seat"],
   methods: {
+    getSeatCode() {
+      if (this.seat.level.toLowerCase() == "federal") {
+        return this.seat.federalseatcode;
+      }
+      if (this.seat.level.toLowerCase() == "state") {
+        return this.seat.stateseatcode;
+      }
+    },
     gotToSeatDetails() {
-      let levelPath = "";
-
-      if (this.level == "Federal") {
-        levelPath = "mp";
-      }
-      if (this.level == "State") {
-        levelPath = "adun";
-      }
-
       this.$router.push({
-        path: `${levelPath}/${this.state.toLowerCase()}/${this.code}`,
+        path: `person/${this.seat.person.id}`,
       });
     },
   },

@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-import AltHome from '../views/AltHome.vue'
 import About from '../views/About.vue'
 import SeatList from '../views/seat/SeatList'
 import SeatDetail from '../views/seat/SeatDetail'
@@ -17,11 +16,6 @@ const routes = [
     component: Home
   },
   {
-    path: '/alt',
-    name: 'AltHome',
-    component: AltHome
-  },
-  {
     path: '/about',
     name: 'About',
     component: About
@@ -33,16 +27,9 @@ const routes = [
     props: true
   },
   {
-    path: '/adun',
-    name: 'AdunList',
-    component: SeatList,
-    props: true
-  },
-  {
-    path: '/mp',
-    name: 'MpList',
-    component: SeatList,
-    props: true
+    path: '/seats',
+    name: 'Seats',
+    component: SeatList
   },
   {
     path: '/adun/:state/',
